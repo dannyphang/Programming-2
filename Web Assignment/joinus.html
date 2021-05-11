@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>
+			Join Us
+		</title>
+		<link rel="stylesheet" type="text/css" href="joinuscss.css">
+		<link rel="stylesheet" type="text/css" href="Header2.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header class="header2">
+		<div class="signin">
+		<button class="signin2" onclick="signup()"> SIGN IN</button>
+		<button class="signin2"><a href="signin.html"> SIGN UP </a></button>
+		</div>
+		<script type="text/javascript">
+		function signup()
+		{
+		var memname = prompt("Member Name","");
+		var mempsw = prompt("Password","");
+		if (memname == "roundtheclock" && mempsw == "iloveroundtheclock")
+			{
+				alert("Sign in successful!");
+				document.getElementsByClassName("signin2").innerHTML = "";
+				document.getElementsByClassName("signin2").innerHTML = "SIGNED IN";
+			}
+		else
+		{
+			alert("No username found.");
+		}
+	}
+	</script>
+		
+		<div class="allbar">
+		<div class="headerlogo">
+			<a href="Homepage.html" title="Home Page"><img src="LOGO.png" alt="Logo"></a>
+		</div>
+	<div class="paragraph">
+		<a href="Homepage.html" title="Best Cleaning Services Round The Clock"><p>ROUND THE CLOCK</p>	</a>
+	</div>
+	<div class="bar">
+		<nav>
+			<ul class="listbar">
+				<li><a href="cleaningservices.html" title="Know More About Our Packages">Cleaning Services</a></li>
+				<li><a href="timetable start.html" title="Pick A Time">Timetable</a></li>
+				<div id="productsdrop">
+				<li><a href="product.html" id="products">Products</a>
+					<div class="products-content">
+					<div id="proLeft"><a href="robot.html"><img src="Robot3.jpg" class="navpic" alt="Robot"> <br> Robot</a></div>
+					<div id="proCenter"><a href="vacuum.html"><img src="Vaccum1.jpg" class="navpic" alt="Vaccum"> <br> Vacuum</a></div>
+					<div id="proRight"><a href="mop.html"><img src="Mop1.jpg" class="navpic" alt="Mop"> <br> Mop</a></div>
+					</div>
+				</li>
+					</div>
+				<li><a href="workers.html" title="Meet Our Certified Workers">Workers</a></li>
+				<div id="joindrop">
+				<li><a href="joinus.html" id="join">Our Company</a></li>
+					<div class="join-content">
+						<div id="aboutLeft">
+					<a href="joinus.html"><img src="AboutUs1.jpg" class="navpic" alt="About Us"> <br>About Us</a></div>
+						<div id="aboutRight">
+					<a href="joinus.html#jr"><img src="JoinUs1.png" class="navpic" alt="Join Us"> <br> Join Us</a>
+					</div>
+					</div>
+					</div>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+	</header>
+	<div class="content">
+		<script>
+			function darkModeOn()
+			{
+				var darkElement = document.body;
+				darkElement.classList.toggle("darkMode");
+			}
+			</script>
+	<div class="paragraph1">
+	<button style="background-color:white;color:#5B6446;text-decoration:underline;" onclick="chinese()"> Translate to Chinese </button>
+	<button class="darkMode" onclick="darkModeOn()"> Dark Mode </button>
+	<script>
+		function chinese(){
+		var translated = document.getElementById("translate").innerHTML = 
+			'<a style="text-decoration:none;" href="#btm"> <h3 style="background-color:white;color:#5B6446;text-decoration:none;float:right;"> 点这里加入我们！</h3></a>' +
+			'<h1>关于我们</h1>' + 
+			'全天候提供吉隆坡最好的地板清洁服务。全天候可靠' +
+			'<br>清洁公司为住宅和商业客户提供服务多年。它已经被证明' +
+			'<br>由于对细节和卓越服务的关注，使客户满意和满意。' +
+			'<br><br><br>' +
+			'提供清洁服务的公司了解清洁设施的重要性' +
+			'<br>可以给客户留下深刻的印象。通常，公司会选择聘请专业人士' +
+			'<br>办公室清洁服务比雇用门卫的原因主要在于他们的经验和建立' +
+			'<br>在不同的织物和表面上有效工作的清洁过程。' +
+			'<br><br><br>' +
+			'全天候将经验丰富的清洁工送到您家门口。专业且训练有素的清洁工' +
+			'<br>可以低成本提供多种服务。全天候提供适合您的当天服务' +
+			'<br>你的日程表。办公室商业清洁，管家和租赁的全天候专家，' +
+			'<br>家庭清洁套装，花园清洁，豪华清洁，地毯清洁以及准备饭菜和'+
+			'<br>专业的饭盒。'+
+			'<br><br><br><br>' +
+			'<p>邮寄我们 &#9993;: <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">aroundtheclock@gmail.com</a></p><br>' + 
+			  '<h1> 我们所在 </h1>' +
+			  '<p>Melati Utama <br> 53100 Kuala Lumpur <br>	Federal Territory of Kuala Lumpur</p>' +
+			  '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7967.020906326501!2d101.72560357116235!3d3.2222525406158273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc385d7935e655%3A0xb4ea3f41983e0135!2sMelati%20Utama%2C%2053100%20Kuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1577697610344!5m2!1sen!2smy" frameborder="0" style="border:0;" allowfullscreen=""></iframe>' +
+			'<br><h1> 我们的合作商 </h1> <h4> Hotel Williams Villa </h4>' +
+			'<div id="ads"> <a href="https://www.instagram.com/hotelwilliamsvilla/"> <img src="ad1.jpg" alt="Hotel Williams Villa"> </a> </div>' +
+			'<br><p>追踪我们：</p><a href="https://www.instagram.com/around_the_clock_fitness/"> <img src="instaicon2.png" alt="Ins Icon" width="50"> </a>' +
+			'<a href="https://www.facebook.com/Round-The-Clock-RTC-101177011385957/?ref=aymt_homepage_panel&eid=ARB70Y8_mfrh29iM-Y2AigkIsKS4LVUjU07AUXcXu5f5LeeQPXjPGxvpeNr2gHaDQVQuQgLMtAuAGI4_"> <img src="fbicon2.jpg" width="50" alt="FB Icon"> </a>';
+			}
+		</script>
+
+	<div id="translate">
+	<a style="text-decoration:none;" href="#btm"> <h3 style="background-color:white;color:#5B6446;text-decoration:none;float:right;"> CLICK HERE TO JOIN US!</h3></a>
+	<h1>About us</h1>
+<!-----------------paragraph------------------>
+		
+			Around the clock is the best floor cleaning service at Kuala Lumpur. Around the clock is a reliable
+			<br>cleaning company serving residential and commercial clients for a number of years. It has a proven
+			<br>track record of happy and satisfied clients because of its attention to detail and service excellence.
+			<br>
+			<br>
+			<br>
+			A company which provides cleaning services understands the importance of how a clean facility
+			<br>can create a great impression on clients. Often times, companies choose to hire a professional 
+			<br>office cleaning service than employing janitors primarily because of their experience and established
+			<br>cleaning processes that work effectively on different fabrics and surfaces.
+			<br>
+			<br>
+			<br>
+			Around the clock sends experienced cleaners to your doorstep. Its professional and trained cleaners 
+			<br>can offer a wide range of services at a low cost. Around the clock offers same day services to suit 
+			<br>your schedule. Around the clock specialist in office commercial cleaning, housekeeper and lease, 
+			<br>home cleaning package, Garden cleaning, luxury cleaning, carpet cleaning and Preparing meals and
+			<br>meal boxes for professionals.
+			<br><br><br><br>
+			<p>Email Us &#9993;: <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">aroundtheclock@gmail.com</a></p>
+			<br>
+		
+<!-----------------paragraph------------------>
+
+			
+				<h1> Our Location </h1>
+				<p>Melati Utama <br>
+				   53100 Kuala Lumpur <br>
+				   Federal Territory of Kuala Lumpur</p>
+
+				 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7967.020906326501!2d101.72560357116235!3d3.2222525406158273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc385d7935e655%3A0xb4ea3f41983e0135!2sMelati%20Utama%2C%2053100%20Kuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1577697610344!5m2!1sen!2smy" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			<br>
+				<h1> Our Partners </h1>
+				<h4> Hotel Williams Villa </h4>
+				<div id="ads"> <a href="./y1/homepage.html"> <img src="ad1.jpg" alt="Hotel Williams Villa"> </a> </div>
+			<br>
+				<p>Follow us:</p>
+				<a href="https://www.instagram.com/around_the_clock_fitness/"> <img src="instaicon2.png" alt="Ins Icon" width="50"> </a>
+				<a href="https://www.facebook.com/Round-The-Clock-RTC-101177011385957/?ref=aymt_homepage_panel&eid=ARB70Y8_mfrh29iM-Y2AigkIsKS4LVUjU07AUXcXu5f5LeeQPXjPGxvpeNr2gHaDQVQuQgLMtAuAGI4_"> <img src="fbicon2.jpg" width="50" alt="FB Icon"> </a>
+		<iframe width="500px" height="400px"
+	src="https://www.youtube.com/embed/kAVU17ugHlw?autoplay=1">
+	</iframe>	
+			
+	</div>
+</div>
+
+<h1 id="btm">Join Us</h1>
+
+		<form action="/action_page.php">
+		<label>
+			Name : <input type="text" name="name"/>
+		</label>
+		<label>
+			IC/NO : <input type="text" name="ic"/>
+		</label>
+		<label>
+			Age  : <input type="text" name="age"/>
+		</label>
+		<label>
+			Email : <input type="text" name="email"/>
+		</label>
+		<label>
+			Phone : <input type="tel" name="phone"/>
+		</label>
+		<label>
+		Full / Part Time
+			<select>
+			<option value="full">Full Time</option>
+			<option value="part">Part Time</option>
+			</select>
+		</label>
+		<br>
+		<input id="buttonsubmit" type="button" value="Submit" onclick="msg()">
+			<script>
+				function msg() {
+				alert ("You have registered successfully! Thank You Jing Rong!")
+				}
+			</script>
+			</form>
+		</div>
+	<a href="#Top" class="round-button">&#10514;</a>
+</body>
+</html>

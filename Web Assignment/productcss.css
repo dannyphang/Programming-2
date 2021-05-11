@@ -1,0 +1,78 @@
+
+
+th{
+	transition: box-shadow .5s;
+	border:none;
+	margin:20px;
+	
+}
+
+th:hover{
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+	
+}
+
+th img{
+	width:320px;
+	height:320px;
+	margin:20px;
+	display:block;
+}
+
+table{
+	float:none;
+	clear:both;
+	width:30px;
+	border:none;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#robot{
+	text-align:center;
+	clear:both;
+	padding-top:100px;
+	padding-bottom:20px;
+	position: relative;
+	top: 214px;
+}
+
+
+.pickone{
+	padding-bottom:30px;
+}
+
+.container{
+	position:relative;
+	
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blue;
+}
+
+.container:hover th img .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}

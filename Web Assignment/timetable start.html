@@ -1,0 +1,233 @@
+<!doctype>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>
+			Timetable
+		</title>
+		<link rel="stylesheet" type="text/css" href="timetablecssfile.css">
+		<link rel="stylesheet" type="text/css" href="Header2.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		
+		
+	  
+		
+</head>
+
+<body>
+	<header class="header2">
+		<div class="signin">
+		<button class="signin2"> <a href="signin.html"> SIGN IN </a></button>
+		<button class="signin2"> <a href="signin.html"> SIGN UP </a></button>
+		</div>
+		<script type="text/javascript">
+		function signup()
+		{
+		var memname = prompt("Member Name","");
+		var mempsw = prompt("Password","");
+		if (memname == "roundtheclock" && mempsw == "iloveroundtheclock")
+			{
+				alert("Sign in successful!");
+				document.getElementsByClassName("signin2").innerHTML = "";
+				document.getElementsByClassName("signin2").innerHTML = "SIGNED IN";
+			}
+		else
+		{
+			alert("No username found.");
+		}
+	}
+	</script>
+		
+		<div class="allbar">
+		<div class="headerlogo">
+			<a href="Homepage.html" title="Home Page"><img src="LOGO.png" alt="Logo"></a>
+		</div>
+	<div class="paragraph">
+		<a href="Homepage.html" title="Best Cleaning Services Round The Clock"><p>ROUND THE CLOCK</p>	</a>
+	</div>
+	<div class="bar">
+		<nav>
+			<ul class="listbar">
+				<li><a href="cleaningservices.html" title="Know More About Our Packages">Cleaning Services</a></li>
+				<li><a href="timetable start.html" title="Pick A Time">Timetable</a></li>
+				<div id="productsdrop">
+				<li><a href="product.html" id="products">Products</a>
+					<div class="products-content">
+					<div id="proLeft"><a href="robot.html"><img src="Robot3.jpg" class="navpic" alt="Robot"> <br> Robot</a></div>
+					<div id="proCenter"><a href="vacuum.html"><img src="Vaccum1.jpg" class="navpic" alt="Vaccum"> <br> Vacuum</a></div>
+					<div id="proRight"><a href="mop.html"><img src="Mop1.jpg" class="navpic" alt="Mop"> <br> Mop</a></div>
+					</div>
+				</li>
+					</div>
+				<li><a href="workers.html" title="Meet Our Certified Workers">Workers</a></li>
+				<div id="joindrop">
+				<li><a href="joinus.html" id="join">Our Company</a></li>
+					<div class="join-content">
+						<div id="aboutLeft">
+					<a href="joinus.html"><img src="AboutUs1.jpg" class="navpic" alt="About Us"> <br>About Us</a></div>
+						<div id="aboutRight">
+					<a href="joinus.html#btm"><img src="JoinUs1.png" class="navpic" alt="Join Us"> <br> Join Us</a>
+					</div>
+					</div>
+					</div>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+	</header>
+	
+		<div id="startclock">
+			
+				<div id="start">
+					<form name = "myform" action="/action_page.php" method="get">
+					<fieldset>
+						<legend>  Pick A Time  </legend>
+						<label>
+							Packages
+							<select required>
+							<option value="none" selected disabled hidden>
+							Please select a package
+							</option>
+								<option value="1">PACKAGE 1</option>
+								<option value="2">PACKAGE 2</option>
+								<option value="3">PACKAGE 3</option>
+							</select>
+						</label>
+						<label>
+						<a href="cleaningservices.html"><address>Click here to refer to package</address></a>
+						</label>
+						<label>
+							Extra Requests <span style="font-size:12px;color:red;"> (*only for PACKAGE 3) </span>
+							<input type="text" name="extra" />
+						</label>
+						<label>
+						Select a Time
+						<select required>
+						<option value="none" selected disabled hidden>
+						Please select a time
+						</option>
+							<option value="1">1pm</option>
+							<option value="2">2pm</option>
+							<option value="3">3pm</option>
+							<option value="4">4pm</option>
+							<option value="5">5pm</option>
+							<option value="6">6pm</option>
+							<option value="7">7pm</option>
+							<option value="8">8pm</option>
+							<option value="9">9pm</option>
+							<option value="10">10pm</option>
+							<option value="11">11pm</option>
+							<option value="12">12pm</option>
+						</select>
+						</label>
+						<label>
+						Date
+							<input type="date">
+						</label>
+						<label>
+							Worker
+							<select required>
+							<option value="none" selected disabled hidden>
+							Please select a worker
+							</option>
+								<option value="worker1">Ali</option>
+								<option value="worker2">Sam</option>
+								<option value="worker3">Samantha</option>
+							</select>
+						</label>
+						<label>
+						<a href="workers.html"><address>Click here to know more about our workers</address></a>
+						</label>
+						<label>
+						Address (Line 1)
+						<input type="text" name="address" placeholder="  ------------ Address ------------" required>
+						</label>
+						<label>
+						Address (Line 2)
+						<input type="text" name="address" placeholder="  ------------ Address ------------">
+						</label>
+						<label>
+						Address (Line 3)
+						<input type="text" name="address" placeholder="  ------------ Address ------------">
+						</label>
+						<label>
+						State
+							<input type="text" list="states" name="statelist"  placeholder="Please select a state" required>
+							<datalist id="states">
+							<option value="Kedah"/>
+							<option value="Pulau Penang"/>
+							<option value="Perak"/>
+							<option value="Selangor"/>
+							<option value="Melaka"/>
+							<option value="Negeri Sembilan"/>
+							<option value="Johor"/>
+							<option value="Pahang"/>
+							<option value="Kelantan"/>
+							<option value="Terengganu"/>
+							</datalist>
+						</label>
+						<label>
+						Postcode
+						<input maxlength="5" type="text" placeholder="30100" required>
+						</label>
+						</fieldset>
+						<fieldset>
+						<legend> Payment </legend>
+					<label for="cardType" class="floatLabel"> Credit Card
+			   <select size="1" name="cardType" class="floatCtrl">
+				   <option value="HL"> Hong Leong Bank </option>
+				   <option value="PB"> Public Bank </option>
+				   <option value="MC"> MasterCard </option>
+				   <option value="Visa"> Visa </option>
+			   </select>
+						</label>
+			   <label for="cardName" class="floatLabel"> Name on Card 
+			   <input name="cardName" class="floatCtrl" maxlength="16" type="text" size="30"></label>
+			   <label for="cardNumber" class="floatLabel"> Number on Card 
+			   <input name="cardNumber" class="floatCtrl" size="30"></label>
+			   
+			   <label class="floatLabel"> Expiration Date 
+			   <select class="floatCtrl" name="expMonth">
+				   <option value="Jan"> 01 </option>
+				   <option value="Feb"> 02 </option>
+				   <option value="Mar"> 03 </option>
+				   <option value="Apr"> 04 </option>
+				   <option value="May"> 05 </option>
+				   <option value="Jun"> 06 </option>
+				   <option value="Jul"> 07 </option>
+				   <option value="Aug"> 08 </option>
+				   <option value="Sep"> 09 </option>
+				   <option value="Oct"> 10 </option>
+				   <option value="Nov"> 11 </option>
+				   <option value="Dec"> 12 </option>
+				   </select>
+			   <select class="floatCtrl" name="expDate">
+				   <option value="one"> 2018 </option>
+				   <option value="two"> 2019 </option>
+				   <option value="three"> 2020 </option>
+				   <option value="four"> 2021 </option>
+				   <option value="five"> 2022 </option>
+				   </select>
+				   </label>
+			   
+		   </fieldset>
+					</form>
+				</div>
+		</div>
+		
+		
+		<button class="buttonnext" onclick="msg()">
+			Submit
+		</button>
+		
+		<script>
+		function msg(){
+			alert ("Your submission is successful!")
+		}
+		</script>
+<a href="#Top" class="round-button">&#10514</a>
+		
+</body>
+
+</html>

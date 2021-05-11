@@ -1,0 +1,108 @@
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>
+			SignIn / SignUp
+		</title>
+		<link rel="stylesheet" type="text/css" href="Header2.css">
+		<link rel="stylesheet" type="text/css" href="signin.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	</meta>
+	
+
+</head>
+<body>
+
+<header class="header2">
+		<div class="signin">
+		<button class="signin2" onclick="signup()"> SIGN IN </button>
+		<button class="signin2"><a href="signin.html"> SIGN UP </a></button>
+		</div>
+		<script type="text/javascript">
+		function signup()
+		{
+		var memname = prompt("Member Name","");
+		var mempsw = prompt("Password","");
+		if (memname == "roundtheclock" && mempsw == "iloveroundtheclock")
+			{
+				alert("Sign in successful!");
+			
+				document.getElementsByClassName("signin2").innerHTML = "";
+				document.getElementsByClassName("signin2").innerHTML = "SIGNED IN";
+			}
+		else
+		{
+			alert("No username found.");
+		}
+	}
+	</script>
+		
+		<div class="allbar">
+		<div class="headerlogo">
+			<a href="Homepage.html" title="Home Page"><img src="LOGO.png" alt="Logo"></a>
+		</div>
+	<div class="paragraph">
+		<a href="Homepage.html" title="Best Cleaning Services Round The Clock"><p>ROUND THE CLOCK</p>	</a>
+	</div>
+	<div class="bar">
+		<nav>
+			<ul class="listbar">
+				<li><a href="cleaningservices.html" title="Know More About Our Packages">Cleaning Services</a></li>
+				<li><a href="timetable start.html" title="Pick A Time">Timetable</a></li>
+				<div id="productsdrop">
+				<li><a href="product.html" id="products">Products</a>
+					<div class="products-content">
+					<div id="proLeft"><a href="robot.html"><img src="Robot3.jpg" class="navpic" alt="Robot"> <br> Robot</a></div>
+					<div id="proCenter"><a href="vacuum.html"><img src="Vaccum1.jpg" class="navpic" alt="Vaccum"> <br> Vacuum</a></div>
+					<div id="proRight"><a href="mop.html"><img src="Mop1.jpg" class="navpic" alt="Mop"> <br> Mop</a></div>
+					</div>
+				</li>
+					</div>
+				<li><a href="workers.html" title="Meet Our Certified Workers">Workers</a></li>
+				<div id="joindrop">
+				<li><a href="joinus.html" id="join">Our Company</a></li>
+					<div class="join-content">
+						<div id="aboutLeft">
+					<a href="joinus.html"><img src="AboutUs1.jpg" class="navpic" alt="About Us"> <br>About Us</a></div>
+						<div id="aboutRight">
+					<a href="joinus.html#jr"><img src="JoinUs1.png" class="navpic" alt="Join Us"> <br> Join Us</a>
+					</div>
+					</div>
+					</div>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+	</header>
+
+	<div class="login-page">
+		<div class="form">
+			<form class="register-form"  name="vform">
+				<input class="inputcal" type="text" name="username" placeholder="Name"/>
+					<div id="name_error" class="val_error"></div>
+					
+				<input class="inputcal" type="text" name="password" placeholder="Password"/>
+					<div id="password_error" class="val_error"></div>
+					
+				<input class="inputcal" type="text" name="email" placeholder="Email"/>
+					<div id="email_error" class="val_error"></div>
+					
+				<button class="creatbutton" onclick="msg()"><a href="Homepage.html">Create</a></button>
+				
+			</form>
+	</div>
+
+	<script>
+	function msg(){
+	alert ("Your registration is successful!");
+	}
+	function msg2(){
+	alert ("You have logged in!");
+	}
+	</script>
+
+
+
+</body>
+</html>

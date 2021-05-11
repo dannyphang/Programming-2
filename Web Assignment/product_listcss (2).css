@@ -1,0 +1,21 @@
+table{
+	float:none;
+	clear:both;
+	width:30px;
+	border:none;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td{
+	transition: box-shadow .5s;
+	border:none;
+	margin:20px;
+	padding:50px;
+}
+
+tr:hover{
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+	
+}

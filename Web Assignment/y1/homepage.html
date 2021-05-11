@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="homepage.css">
+<title>Hotel Williams Villa</title>
+
+</head>
+<body style="background-color: #EEEEEE;">
+	<div a href="homepage.html"><img src="logo1.png" alt="logo Hotel William Villa" class="logo"></div>
+	<div ><img src="title1.png" alt="Title Hotel William Villa" class="title"></div>
+
+
+<ul>
+  <li><a href="#home" target="_self">Homepage</a></li>
+  <li class="dropdown">
+    <a href=""javascript:void(0)" class="dropbtn"">About us</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+	</li>
+  <li><a href="#facilities" target="_self">Facilities</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Rooms</a>
+    <div class="dropdown-content">
+      <a href="#">The Villa</a>
+      <a href="#">Duplex Suite</a>
+	  <a href="#">Premier Twin</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Contact Us</a>
+    <div class="dropdown-content">
+      <a href="#">Facebook</a>
+      <a href="#">instagram</a>
+	  
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="SignIn.html" class="dropbtn">Sign in/Sign up</a>
+    <div class="dropdown-content">
+      <a href="SignIn.html">Sign in</a>
+      <a href="SignUp.html">Sign up</a>
+    </div>
+  </li>
+</ul>
+
+	<section>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img1.jpeg" alt="img1" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="img2.jpg" alt="img2" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="img3.jpg" alt="img3" style="width:100%">
+</div>
+	
+<div class="mySlides fade">
+  <img src="img4.jpg" alt="img4" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="img5.jpg" alt="img5" style="width:100%">
+</div>
+	
+<div class="mySlides fade">
+  <img src="img6.jpg" alt="img6" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+	<img src="img7.jpg" alt="img7" style="width:100%">
+</div>
+
+	<br>
+	<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  
+</div>
+	  
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+		</div>
+		<hr>
+</section>
+<section>
+<h5 class="end"><a href="homepage.html">Home</a>| About Us | Facilities | Rooms | Contact Us | Sign In/Up</h5>
+	<a href="https://www.facebook.com/villa.williams.5268" class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com/hotelwilliamsvilla/" class="fa fa-instagram"></a>
+	<pre>
+	<h4 class="end1">02, The Shore River, Jalan Batu Hijau, 
+54100, Kuala Lumpur, Malaysia 
+  03 – 123 4567</h4>
+	</pre>
+	<hr>
+	
+	</section>
+
+</body>
+</html>

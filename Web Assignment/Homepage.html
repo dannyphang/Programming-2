@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Header2.css">
+		<link rel="stylesheet" type="text/css" href="Homepage.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link rel="icon" href="LOGO.png" type="image/png" sizes="16x16">
+	<title> Home </title>
+	
+</head>
+
+<body>
+
+	<div id="pageContent">
+	<header class="header2">
+		<div class="signin">
+		<button class="signin2" onclick="signup()"> SIGN IN </button>
+		<button class="signin2"><a href="signin.html"> SIGN UP </a></button>
+		</div>
+		<script type="text/javascript">
+		function signup()
+		{
+		var memname = prompt("Member Name","");
+		var mempsw = prompt("Password","");
+		if (memname == "roundtheclock" && mempsw == "iloveroundtheclock")
+			{
+				alert("Sign in successful!");
+				document.getElementsByClassName("signin2").innerHTML = "";
+				document.getElementsByClassName("signin2").innerHTML = "SIGNED IN";
+			}
+		else
+		{
+			alert("No username found.");
+		}
+	}
+	</script>
+		
+		<div class="allbar">
+		<div class="headerlogo">
+			<a href="Homepage.html" title="Home Page"><img src="LOGO.png" alt="Logo"></a>
+		</div>
+	<div class="paragraph">
+		<a href="Homepage.html" title="Best Cleaning Services Round The Clock"><p>ROUND THE CLOCK</p>	</a>
+	</div>
+	<div class="bar">
+		<nav>
+			<ul class="listbar">
+				<li><a href="cleaningservices.html" title="Know More About Our Packages">Cleaning Services</a></li>
+				<li><a href="timetable start.html" title="Pick A Time">Timetable</a></li>
+				<div id="productsdrop">
+				<li><a href="product.html" id="products">Products</a>
+					<div class="products-content">
+					<div id="proLeft"><a href="robot.html"><img src="Robot3.jpg" class="navpic" alt="Robot"> <br> Robot</a></div>
+					<div id="proCenter"><a href="vacuum.html"><img src="Vaccum1.jpg" class="navpic" alt="Vaccum"> <br> Vacuum</a></div>
+					<div id="proRight"><a href="mop.html"><img src="Mop1.jpg" class="navpic" alt="Mop"> <br> Mop</a></div>
+					</div>
+				</li>
+					</div>
+				<li><a href="workers.html" title="Meet Our Certified Workers">Workers</a></li>
+				<div id="joindrop">
+				<li><a href="joinus.html" id="join">Our Company</a></li>
+					<div class="join-content">
+						<div id="aboutLeft">
+					<a href="joinus.html"><img src="AboutUs1.jpg" class="navpic" alt="About Us"> <br>About Us</a></div>
+						<div id="aboutRight">
+					<a href="joinus.html#jr"><img src="JoinUs1.png" class="navpic" alt="Join Us"> <br> Join Us</a>
+					</div>
+					</div>
+					</div>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+	</header>
+	
+	<img class="slide" src="Cleaning3.jpg" alt="Cleaning Services Illustration">
+	
+	<div id="starworker">
+		
+		<div class="title"> <h1> Star Workers </h1> </div>
+		
+		<div id="leftw">
+			<a href="workers.html"> <img class="worker" src="Worker1.jpg" alt="Worker1"> </a>
+			</div>
+		<div id="centerw">
+			<a href="workers.html"> <img class="worker" src="Worker2.jpg" alt="Worker2"> </a>
+			</div>
+		<div id="rightw">
+			<a href="workers.html"> <img class="worker" src="Worker3.jpg" alt="Worker3"> </a>
+			</div>
+		
+		<div class="details">
+			<p> With our diligent and responsible workers, we provide a pleasant
+			and worry-free home-cleaning experience. </p>
+			</div>
+		
+		</div>
+		
+		<div id="starproducts">
+		<div class="title"> <h1> Star Products </h1> </div>
+			<div id="leftp"><a href="mop.html"><img src="Mop3.jpg" alt="Mop"></a></div>
+			<div class="rightp"><a href="robot4.html"><img src="Robot4.jpg" alt="Robot"></a></div>
+			<div class="rightp"><a href="robot3.html"><img src="Robot3.jpg" alt="Robot"></a></div>
+			<div class="rightp"><a href="mop1.html"><img src="Mop1.jpg" alt="Mop"></a></div>
+			<div class="rightp"><a href="mop2.html"><img src="Mop2.jpg" alt="Mop"></a></div>
+		</div>
+		
+	
+		<a href="#Top" class="round-button">&#10514;</a>
+		</div>
+
+</body>
+</html>

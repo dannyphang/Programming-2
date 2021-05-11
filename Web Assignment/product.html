@@ -1,0 +1,99 @@
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>
+			Product
+		</title>
+		<link rel="stylesheet" type="text/css" href="productcss.css">
+		<link rel="stylesheet" type="text/css" href="Header2.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header2">
+		<div class="signin">
+		<button id="signin2" onclick="signup()"> SIGN IN</button>
+		<button id="signin2"><a href="signin.html"> SIGN UP </a></button>
+		</div>
+		<script type="text/javascript">
+		function signup()
+		{
+		var memname = prompt("Member Name","");
+		var mempsw = prompt("Password","");
+		if (memname == "roundtheclock" && mempsw == "iloveroundtheclock")
+			{
+				alert("Sign in successful!");
+				document.getElementById("signin2").innerHTML = "";
+				document.getElementById("signin2").innerHTML = "SIGNED IN";
+			}
+		else
+		{
+			alert("No username found.");
+		}
+	}
+	</script>
+		
+		<div class="allbar">
+		<div class="headerlogo">
+			<a href="Homepage.html" title="Home Page"><img src="LOGO.png" alt="Logo"></a>
+		</div>
+	<div class="paragraph">
+		<a href="Homepage.html" title="Best Cleaning Services Round The Clock"><p>ROUND THE CLOCK</p>	</a>
+	</div>
+	<div class="bar">
+		<nav>
+			<ul class="listbar">
+				<li><a href="cleaningservices.html" title="Know More About Our Packages">Cleaning Services</a></li>
+				<li><a href="timetable start.html" title="Pick A Time">Timetable</a></li>
+				<div id="productsdrop">
+				<li><a href="product.html" id="products">Products</a>
+					<div class="products-content">
+					<div id="proLeft"><a href="robot.html"><img src="Robot3.jpg" class="navpic" alt="Robot"> <br> Robot</a></div>
+					<div id="proCenter"><a href="vacuum.html"><img src="Vaccum1.jpg" class="navpic" alt="Vaccum"> <br> Vacuum</a></div>
+					<div id="proRight"><a href="mop.html"><img src="Mop1.jpg" class="navpic" alt="Mop"> <br> Mop</a></div>
+					</div>
+				</li>
+					</div>
+				<li><a href="workers.html" title="Meet Our Certified Workers">Workers</a></li>
+				<div id="joindrop">
+				<li><a href="joinus.html" id="join">Our Company</a></li>
+					<div class="join-content">
+						<div id="aboutLeft">
+					<a href="joinus.html"><img src="AboutUs1.jpg" class="navpic" alt="About Us"> <br>About Us</a></div>
+						<div id="aboutRight">
+					<a href="joinus.html#jr"><img src="JoinUs1.png" class="navpic" alt="Join Us"> <br> Join Us</a>
+					</div>
+					</div>
+					</div>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+	</header>
+	
+		<div id="robot">
+		
+		<h2 class="pickone">PICK ONE</h2>
+		
+			<table>
+				<div class="container">
+				<tr>
+					<th><a href="robot.html"><img src="robot.jfif" alt="Robot" title="Robot"></a></th>
+					<th><a href="vacuum.html"><img src="vacuum.jpg" alt="Vacuum" title="Vacuum"></a></th>
+					<th><a href="mop.html"><img src="mop.jpg" alt="Robot" title="Mop"></a></th>
+				</tr>
+				
+				<tr class="producttype">
+					<td>Robot</td>
+					<td>Vacuum</td>
+					<td>Mop</td>
+				</tr>
+				</div>
+			</table>
+		</div>	
+	
+<a href="#Top" class="round-button">&#10514</a>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+<title>Sign Up</title>
+<link rel="stylesheet" href="SignIn.css">
+<link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+<div class="header">
+  <a href="homepage.html"><img src="logo1.png" class="logo1"></a>
+  <div class="header-right">
+    <a href="homepage.html">Home</a>
+	<a href="#about">About Us</a>
+	<a href="#fac" >Facilities</a>
+	<a href="#room">Rooms</a>
+    <a href="#contact">Contact Us</a>
+	<a  class="active" href="SignIn.html">Sign In/Up</a>
+</div>
+</div>
+<div class="back">
+  <div class="signup">
+	<section class="info" style="display: block;width: 40%;margin:0 0px 30px 0;float: left">
+				<div class="step-image">
+					<img src="holiday.PNG">
+				</div>
+				<div class="step-description">
+					<h4>Join Us</h4>
+						<p>Enjoy your holiday with us !</p>
+				</div>
+				
+			</section>
+			<div style="display: block;clear: none;overflow: auto">
+			<h2 class="form-title">Sign up</h2>
+			<form action="Profile.html" target="_blank" method="POST" class="register-form" id="register-form" style="display: block">
+            	<div class="form-group">
+					
+                    <input type="text" name="name" id="name" placeholder="Name"/>
+                </div>	
+                <div class="form-group">
+                	
+                    <input type="email" name="email" id="email" placeholder="Email"/>
+                </div>
+                <div class="form-group">
+                  
+                    <input type="password" name="pass" id="pass" placeholder="Password"/>
+                </div>
+                <div class="form-group">
+                    
+                    <input type="password" name="re_pass" id="re_pass" placeholder="Retaip your password"/>
+                </div>
+                <div class="form-group">
+                	<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                    <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                </div>
+                
+                   <a href="homepage.html"><button type="button" onclick="alert('Welcome!!!')">Register</button></a>
+               
+            </form>				
+		</div>
+		</div>
+</body>
+</html>

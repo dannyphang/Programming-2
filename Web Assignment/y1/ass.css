@@ -1,0 +1,46 @@
+
+.logo{
+width:200px;
+height:200px;
+border:0;
+float:left;}
+
+.title{
+margin-left:200px;
+width:700px;
+height:200px;
+float:none}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  height:50%
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+
+a:link{
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:grey;
+ 
+}
+
+a:hover {
+  text-decoration: underline;
+  color:hotpink;
+}
+
+a:active {
+  text-decoration: underline;
+  color:red;
+  }
+  

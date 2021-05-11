@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign In/Up</title>
+<link rel="stylesheet" href="SignIn.css">
+<link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+<div class="back">
+<div class="header">
+  <a href="homepage.html"><img src="logo1.png" class="logo1"></a>
+  <div class="header-right">
+    <a href="homepage.html">Home</a>
+	<a href="#about">About Us</a>
+	<a href="#fac" >Facilities</a>
+	<a href="#room">Rooms</a>
+    <a href="#contact">Contact Us</a>
+	<a  class="active" href="SignUp.html">Sign In/Up</a>
+</div>
+</div>
+
+		<div class="signin" id="signbox">
+						<section class="info" style="display: block;width: 40%;margin:0 0px 30px 0;float: left">
+				<div class="step-image">
+					<img src="signin.PNG">
+				</div>
+				<div class="step-description">
+					<h4>Welcome Back</h4>
+						<p>Glad to have you back !</p>
+				</div>
+				
+			</section>
+        	<h2 class="form-title">Sign In</h2>
+        	<form action="Profile.html" target="_blank" method="POST" class="register-form" id="login-form">
+            	<div class="form-group">
+                	
+                    <input type="text" name="your_email" id="your_email" placeholder="Email"/>
+                </div>
+                <div class="form-group">
+            
+                    <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                    <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                </div>
+                
+				<a href="homepage.html"><button type="button" onclick="alert('Welcome!!!')">Log In</button></a>
+            </form>
+		</div>
+    </div>
+</body>
+</html>

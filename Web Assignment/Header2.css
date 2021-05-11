@@ -1,0 +1,186 @@
+.signin{
+	background-color:#212121;
+	width:100%;
+	padding-top:10px;
+	height: 30px;
+	border:none;
+	position:relative;
+	clear:both;
+	text-align:right;
+	font-size: 12px;
+}
+
+.signin button {background-color: #212121;color:gray;border:#212121;}
+.signin button:hover {background-color:teal;}
+.signin button a{background-color: #212121;color:gray;border:#212121;text-decoration:none;}
+button a:hover {background-color:teal;}
+.header2{
+	position:absolute;
+	width:100%;
+	padding:none;
+	border:none;
+	display:block;
+}
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Lato', sans-serif;
+}
+
+.paragraph a{
+	font-size:30px;
+	color: #5B6446;
+	text-decoration: none;
+}
+
+.headerlogo img{
+	position: absolute;
+	float:left;
+	left: 10%;
+	width: 60px;
+	height: 60px;
+	top: 60px;
+	z-index: 100;
+}
+.bar{
+	float: center;
+	height: 70px;
+}
+
+
+
+nav{
+	font-size: 15px;
+	list-style:none;
+	width:100%;
+}
+
+.paragraph, nav a{
+	display: block;
+	padding: 5px 5px;
+	text-decoration:none;
+	text-align:center;
+	color: #5B6446;
+}
+
+.listbar{
+	text-align:center;
+	list-style: none;
+	display: inline-block;
+	width:100%;
+}
+
+.signin a:active {color: #8B929A;}
+.signin a:visited {color: #8B929A;}
+
+.round-button {
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    animation: colorchange 5s infinite;
+    text-align:center;
+    text-decoration:none;
+    background: #555777;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:2000;
+	position:fixed;
+	bottom: 20px;
+	left: 30px;
+	z-index: 99;	
+	float:left;
+	color:white;
+}
+
+.round-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@keyframes colorchange{
+	  0%   {background: red;}
+	  25%  {background: yellow;}
+	  50%  {background: teal;}
+	  75%  {background: green;}
+	  100% {background: red;}
+}
+
+.allbar:hover .paragraph, .headerlogo {background-color:white;color:black ;-webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;}
+.allbar:hover .bar {background-color:white;  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;}
+.allbar:hover a {color: black;}
+
+ul li {display: inline-block;padding-left: 20px;padding-right: 20px;}
+.bar nav ul li a:hover {color:#08841B;}
+
+#productsdrop{display: inline;}
+
+.products-content, .join-content{
+	display: none;
+	position: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 50;
+	  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.join-content a:hover {color:#08841B;}
+
+#productsdrop:hover #products {color: #08841B}
+#joindrop:hover #join {color: #08841B}
+
+#productsdrop:hover .products-content, #joindrop:hover .join-content{
+	display: block;
+	width: 100%;
+	left: 0px;
+	top: 185px;
+	text-align: center;
+	background-color: white;
+	height: 215px;
+	line-height: 40px;
+	padding: 0px;
+	font-weight: bold;
+  -webkit-animation-name: ease-in;
+  -webkit-animation-duration: 1s;
+  animation-name: ease-in;
+  animation-duration: 1s;
+	
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.2}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.2}
+  to {opacity: 1}
+}
+
+@-webkit-keyframes ease-in {
+  from {opacity: 0.2}
+  to {opacity: 1}
+}
+
+@keyframes ease-in {
+  from {opacity: 0.2}
+  to {opacity: 1}
+}
+
+#joindrop{
+	display: inline;
+}
+
+.navpic {width:150px;height:150px;}
+
+#proLeft, #proCenter, #proRight{float: left;width:33%;}
+#aboutLeft, #aboutRight{float: left;width:50%;}

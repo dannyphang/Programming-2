@@ -1,0 +1,12 @@
+#worker{position:relative; top:214px;font-family:"Open Sans"}
+
+table {width:100%;padding:10px;}
+
+td {width:40%}
+th {vertical-align:bottom;text-align:left;letter-spacing:20px;font-size:30px;}
+.photo {width:20%;margin-left:20px;}
+img {position:relative;left:100px;width:150px;}
+.details {width:10%;color:#5B6446;}
+
+.contact {color:#5B6446;text-decoration:underline;}
+.contact:hover {background-color:teal;color:white;}

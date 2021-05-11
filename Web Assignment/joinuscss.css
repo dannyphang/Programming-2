@@ -1,0 +1,40 @@
+.paragraph1{
+	margin-right:20px;
+	margin-left:20px;
+	padding-top:220px;
+}
+
+.content {font-family:"Open Sans";}
+
+#btm{
+	text-align:center;
+}
+
+form{
+	border:2px solid black;
+	position:relative;
+	margin-left:20px;
+	margin-right:20px;
+	padding-bottom:50px;
+	margin-bottom:30px;
+}
+
+label{
+	text-align:left;
+	display:block;
+	position:relative;
+	clear:right;
+	padding-left:30%;
+	padding-top:30px;
+}
+
+input, select{
+	width:200px;
+	position:absolute;
+	left:55%
+}
+
+#ads a img {width:50%;height:30%;}
+p a {text-decoration:none;color:#0e5a43;}
+.darkMode {background-color:black;color:white;}
+.darkMode form {border:white;}

@@ -1,0 +1,54 @@
+.h1img{
+	text-align:center;
+	padding-top:100px;
+	
+}
+
+.proContent {position:relative; top:214px;font-family:"Open Sans";}
+
+
+table{
+	
+	height:50px;
+	float:none;
+	clear:both;
+	border:none;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	
+}
+
+tr{
+	padding-top:50px;
+	font-size:20px;
+}
+td{
+	transition: box-shadow .5s;
+	border:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:40px;
+	padding-right:40px;
+	size:40px;
+	
+}
+
+tr:hover{
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+	background-color:teal;
+	font-size:25px;
+}
+
+img{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	height:400px;
+	width:400px;
+	
+}
+

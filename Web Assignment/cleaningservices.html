@@ -1,0 +1,139 @@
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>
+			Cleaning Services
+		</title>
+		<link rel="stylesheet" type="text/css" href="cleaningservicescss.css">
+		<link rel="stylesheet" type="text/css" href="Header2.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<header class="header2">
+		<div class="signin">
+		<button id="signin2" onclick="signup()"> SIGN IN</button>
+		<button id="signin2"><a href="signin.html"> SIGN UP </a></button>
+		</div>
+		<script type="text/javascript">
+		function signup()
+		{
+		var memname = prompt("Member Name","");
+		var mempsw = prompt("Password","");
+		if (memname == "roundtheclock" && mempsw == "iloveroundtheclock")
+			{
+				alert("Sign in successful!");
+				document.getElementById("signin2").innerHTML = "";
+				document.getElementById("signin2").innerHTML = "SIGNED IN";
+			}
+		else
+		{
+			alert("No username found.");
+		}
+	}
+	</script>
+		
+		<div class="allbar">
+		<div class="headerlogo">
+			<a href="Homepage.html" title="Home Page"><img src="LOGO.png" alt="Logo"></a>
+		</div>
+	<div class="paragraph">
+		<a href="Homepage.html" title="Best Cleaning Services Round The Clock"><p>ROUND THE CLOCK</p>	</a>
+	</div>
+	<div class="bar">
+		<nav>
+			<ul class="listbar">
+				<li><a href="cleaningservices.html" title="Know More About Our Packages">Cleaning Services</a></li>
+				<li><a href="timetable start.html" title="Pick A Time">Timetable</a></li>
+				<div id="productsdrop">
+				<li><a href="product.html" id="products">Products</a>
+					<div class="products-content">
+					<div id="proLeft"><a href="robot.html"><img src="Robot3.jpg" class="navpic" alt="Robot"> <br> Robot</a></div>
+					<div id="proCenter"><a href="vacuum.html"><img src="Vaccum1.jpg" class="navpic" alt="Vaccum"> <br> Vacuum</a></div>
+					<div id="proRight"><a href="mop.html"><img src="Mop1.jpg" class="navpic" alt="Mop"> <br> Mop</a></div>
+					</div>
+				</li>
+					</div>
+				<li><a href="workers.html" title="Meet Our Certified Workers">Workers</a></li>
+				<div id="joindrop">
+				<li><a href="joinus.html" id="join">Our Company</a></li>
+					<div class="join-content">
+						<div id="aboutLeft">
+					<a href="joinus.html"><img src="AboutUs1.jpg" class="navpic" alt="About Us"> <br>About Us</a></div>
+						<div id="aboutRight">
+					<a href="joinus.html#jr"><img src="JoinUs1.png" class="navpic" alt="Join Us"> <br> Join Us</a>
+					</div>
+					</div>
+					</div>
+			</ul>
+		</nav>
+		</div>
+	</div>
+
+	</header>
+	
+	<div id="packageicon">
+		<img class="testofpackage" src="testofpackage.png" alt="testofpackage">
+		
+		<table>
+			<tr>
+				<th> Package 1: Basic Cleaning </th>
+				<th> Package 2: Spring Cleaning </th>
+				<th> Package 3: Partners-in-Cleaning </th>
+				</tr>
+			<tr>
+				<td class="description">
+					The cleaner does it all! You need not move even a finger. Except when you stand to receive our personnel at the door.
+					</td>
+				<td class="description">
+					The cleaner prepares your house for a dazzling spring! (Or maybe summer, autumn or winter)
+					</td>
+				<td class="description">
+					Four hands are always more efficient than two! No, you don't need to grow another pair of hands.
+					</td>
+				</tr>
+			<tr>
+				<td class="divider" colspan="3"> Services Included </td>
+				</tr>
+			<tr>
+				<td class="included"> <ul> <li> Sweeping and mopping </li>
+					<li >Vacuuming </li> </ul> </td>
+				<td class="included"> <ul> <li> Sweeping and mopping </li> <li> Vacuuming </li> <li> Window cleaning </li> <li> Toilet cleaning </li> </ul> </td>
+				<td class="included"> <ul> <li> Sweeping and mopping </li> <li> Vacuuming </li> <li> Window cleaning </li> <li> Toilet cleaning (or any other extra requests) </li> </ul> </td>
+		  </tr>
+			<tr>
+				<td class="divider" colspan="3"> Prices and Expected Time Period </td>
+				</tr>
+		  <tr>
+				<td class="prices"> Apartments: RM18 (around 1.5 hours) </td>
+				<td class="prices"> Apartments: RM48 (around 3 hours) </td>
+				<td class="prices"> Apartments: RM28 (around 1.5 hours) </td>
+				</tr>
+			<tr>
+				<td class="prices"> Single Storey House: RM28 (around 3 hours) </td>
+				<td class="prices"> Single Storey House: RM68 (around 4 hours) </td>
+				<td class="prices"> Single Storey House: RM38 (around 2 hours) </td>
+				</tr>
+			<tr>
+				<td class="prices"> Double Storey House: RM38 (around 3.5 hours) </td>
+				<td class="prices"> Double Storey House: RM88 (around 6 hours) </td>
+				<td class="prices"> Double Storey House: RM48 (around 3 hours) </td>
+				</tr>
+			<tr>
+				<td class="prices"> Bungalows: RM58 (around 5 hours) </td>
+				<td class="prices"> Bungalows: RM118 (around 8 hours) </td>
+				<td class="prices"> Bungalows: RM68 (around 5 hours) </td>
+				</tr>
+			</table>
+		
+		<button class="buttonnext">
+			<a href="timetable start.html">Next!</a>
+		</button>
+		
+
+<a href="#Top" class="round-button">&#10514</a>
+		</div>
+
+</body>
+</html>
