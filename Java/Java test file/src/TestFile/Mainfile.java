@@ -40,16 +40,6 @@ public class Mainfile {
         // InsideCode.Case3();
         // InsideCode.Case4();
         
-        String charInput = in2.nextLine();
-        System.out.println(mystery(charInput));
-        
     }
     
-    public static String mystery(String str) {
-        if (str.length() == 0) {
-            return "";
-        } else {
-            return mystery(str.substring(1)) + " " + str.charAt(0);
-        }
-    }
 }
