@@ -32,7 +32,7 @@ public class GuessNumber {
             
             randomNumber = (int) (Math.random() * (max - min + 1) + min); // randomNumber = 30
 
-            //System.out.println(randomNumber);
+            // System.out.println(randomNumber);
             
             do {
                 ClearScreen.Case1();

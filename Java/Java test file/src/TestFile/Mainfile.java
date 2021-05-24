@@ -16,8 +16,8 @@ public class Mainfile {
         // AsteriskPattern.Case4();
         // AsteriskPattern.Case5();
         // AsteriskPattern.Case6();
-        // AsteriskPattern.Case7();
-        GuessNumber.Case1();
+        AsteriskPattern.Case7();
+        // GuessNumber.Case1();
         // ClockwiseArray.Case1();
         // PasswordValidate.Case1();
         // PasswordValidate.Case2();

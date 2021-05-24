@@ -1,0 +1,61 @@
+﻿  Function.cpp
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(64,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(68,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(72,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(89,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(89,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(93,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(97,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(103,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(123,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(124,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(139,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(159,44): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(159,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(160,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(160,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(168,36): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(168,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(170,37): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(170,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(142,70): warning C4101: 'yt2': unreferenced local variable
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(176,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(191,36): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Function.cpp(191,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Main.cpp
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(127,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(128,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(129,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(136,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(137,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(138,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(144,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(145,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(146,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(152,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(153,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(154,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(160,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(161,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(162,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(163,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(231,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(232,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(240,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(241,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(250,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(251,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(252,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(253,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(268,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(269,18): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(277,20): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(278,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(302,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(302,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(302,17): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(320,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(298,8): warning C4101: 'xx': unreferenced local variable
+C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\P4 - Phang Wai Hong (RSF2 G1)\Main.cpp(374,1): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  P4 - Phang Wai Hong (RSF2 G1).vcxproj -> C:\Users\ADMIN\source\repos\P4 - Phang Wai Hong (RSF2 G1)\Debug\P4 - Phang Wai Hong (RSF2 G1).exe

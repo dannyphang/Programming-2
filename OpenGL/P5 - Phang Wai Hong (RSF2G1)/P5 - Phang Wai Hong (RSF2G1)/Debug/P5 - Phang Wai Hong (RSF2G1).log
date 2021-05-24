@@ -1,0 +1,13 @@
+﻿  Main.cpp
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(92,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(109,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(110,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(121,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(122,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(134,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(142,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(143,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(153,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(157,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\P5 - Phang Wai Hong (RSF2G1)\Main.cpp(204,1): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  P5 - Phang Wai Hong (RSF2G1).vcxproj -> C:\Users\ADMIN\source\repos\P5 - Phang Wai Hong (RSF2G1)\Debug\P5 - Phang Wai Hong (RSF2G1).exe
