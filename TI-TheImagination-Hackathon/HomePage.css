@@ -1,0 +1,98 @@
+.slideshow-container {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.slideshow-container img{
+    height: 400px;
+}
+ 
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+.body_content{
+    background-color:rgba(255, 255, 234, 0.918);
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.silde_hr{
+    width: 50%;
+    border: 1px solid red;
+}
+
+.cityoftheday{
+	width:auto;
+	text-align: center;
+}
+
+.cyberjaya{
+    height: 400px;
+}
+
+.cyberjaya iframe{
+    width: 80%; 
+    height: 400px;
+    margin-left: 10%;
+    /* padding-bottom: 50px; */
+}
+
+table{
+	/* float: none; */
+	clear: both;
+	/* width: 80%; */
+	border: none;
+	text-align: center;
+    margin: auto
+}
+
+.content_btn{
+	position: relative;
+	top: 10px;
+	text-align: center;
+	clear: both;
+    margin: auto;
+    width: 80%;
+}
+
+td{
+	transition: box-shadow .5s;
+    width: 50%;
+    height: 300px;
+}
+
+td img{
+	width: 100%;
+	height: 100%;
+    border-radius: 10px;
+	object-fit: cover;
+    
+}
+
+td img:hover{
+	box-shadow: 0 0 5px rgba(10, 10, 10, 0.6); 
+}

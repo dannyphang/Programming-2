@@ -1,0 +1,21 @@
+.busroute{
+	width:auto;
+	text-align: center;
+}
+
+.busschedule iframe{
+    width: 80%; 
+    height: 350px;
+    margin-top: 0.25%;
+    margin-left: 10%;
+	border: none;
+}
+
+.citymap iframe{
+    width: 80%; 
+    height: 400px;
+    margin-top: 0.25%;
+    margin-left: 10%;
+	border: none;
+}
+

@@ -1,0 +1,224 @@
+body{
+    margin: 0px; 
+    height: 100%;
+    position: relative;   
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    min-width: 1024px;
+    position: fixed;
+}
+
+.navbar{
+    background-color: #C0FFC0;
+    height: 40px;
+    width: 100%;
+    font-family: "Arial Black";
+    font-weight: bold;
+    position: inherit;
+}
+
+.navbar_content ul{
+    padding-right: 2%;
+    list-style-type: none;
+}
+
+.navbar_content ul li{
+    float: left;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    /* display: inline-block; */
+    margin-right: 200px;
+    margin-left: 70%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.paylink, .buylink, .foodlink, .cartlink{
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    /* background-color: transparent; */
+}
+
+.paylink{
+    margin-left: 200px;
+    
+}
+
+.search_bar{
+    border: none;
+    margin-right: 50px;
+    margin-top: 2.5px;
+    height: 30px;
+    /* background-color: transparent; */
+    width: 150px;
+    border-radius: 25px;
+    
+}
+
+.search_bar ::placeholder{
+    padding-left: 20px;
+}
+
+.login_bar_btn{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 250%;
+	margin-top: 0px;
+	padding-left: 2px;
+	padding-right: 17px;
+	background-image: url('ti_resources/popup_resources/small.jpg');
+}
+
+.logo:hover, .paylink:hover, .buylink:hover, .foodlink:hover, .cartlink:hover, .login_bar_btn:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+footer{
+    /* background-color:#C0FFC0; */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer_hr{
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.term_and_conditions{
+    margin: auto;
+    width: 70%;
+    height: 40px;
+    border: none;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.term_and_conditions ul li{
+    border: none;
+    /* border: 1px solid black; */
+    position: relative;
+    text-align: center;
+    padding: 0px 12px 0px 9px;
+    margin: auto;
+    display: inline-block;
+}
+
+.term_and_conditions ul .privacy{
+    border-right: 2px solid grey;
+}
+
+.term_and_conditions ul .term{
+    border-right: 2px solid grey;
+}
+
+.term_and_conditions ul .sales{
+    border-right: 2px solid grey;
+}
+
+.round-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    animation: colorchange 5s infinite;
+    text-align: center;
+    text-decoration: none;
+    background: #555777;
+    box-shadow: 0 0 3px gray;
+    font-size: 20px;
+    font-weight: 2000;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;	
+	float: right;
+	color:white;
+}
+
+.round-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@keyframes colorchange{
+	  0%   {background: red;}
+	  25%  {background: yellow;}
+	  50%  {background: teal;}
+	  75%  {background: green;}
+	  100% {background: red;}
+}
+
+/*-form background-*/	
+.login_maintext_bg		{ 	margin-top		: 40px			; 
+							width			: 965px			;  
+							height			: 300			; 
+							background		: #C0FFC0		; 
+							border-radius	: 20px			;} 
+/*POPUP FORMS*/
+.popup_forms			{	margin			: -35 0 0 0		;}
+.container 				{ 	padding			: 16px			;}
+input[type=text], input[type=password] 
+						{	width			: 100%			;
+							padding			: 12px 20px		;
+							margin			: 8px 0			;
+							display			: inline-block	;
+							border			: 1px solid #ccc;
+							box-sizing		: border-box	;}
+.btn					{	float			: left			;}
+span.register 			{	float			: right			;
+							padding-top		: 40px			;
+							padding-left	: 20px			;
+							padding-right	: 20px			;}
+span.psw 				{	float			: right			;
+							padding-top		: 40px			;}
+
+/* The Modal (background) */
+.modal 					{	position		: fixed			; /* Stay in place */
+							z-index			: 1				; /* Sit on top */
+							left			: 0				;
+							top				: 0				;
+							width			: 100%			; /* Full width */
+							height			: 100%			; /* Full height */
+							overflow		: auto			; /* Enable scroll if needed */
+							background-color: rgb(0,0,0)	; /* Fallback color */
+							background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+							padding-top		: 60px			;}
+
+/* Modal Content/Box */
+.modal-content 			{ 	background-color: #fefefe		;
+							margin			: 5% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+							border			: 1px solid #888;
+							width			: 80%			; /* Could be more or less, depending on screen size */}
+/* Add Zoom Animation */
+.animate 				{ 	-webkit-animation: animatezoom 0.6s;
+							animation		: animatezoom 0.6s;}
+@-webkit-keyframes animatezoom 
+						{ 	from {-webkit-transform: scale(0)} 
+							to {-webkit-transform: scale(1)}}
+@keyframes animatezoom  {	from {transform: scale(0)} 
+							to {transform: scale(1)}}

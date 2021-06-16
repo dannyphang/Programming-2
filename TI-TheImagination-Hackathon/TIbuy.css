@@ -1,0 +1,78 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Product List Page CSS@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*dropdown button contents*/
+.pl_buttons				{	background-image: url(main_resources/text.jpg);
+    border			: none			;
+    color			: #beb98f		;
+    font-family		: "Arial Black"	; 
+    background		: milk			; 
+    display			: block			;
+    font-size		: 18px			;
+    padding-left	: 30px			;
+    padding-right	: 15px			;
+    height			: 40px			;}
+.productlist_content  	{ 	
+    position		: absolute		;
+    min-width		: 150px			;
+    box-shadow		: 0px 8px 16px 0px;}
+/*links inside the dropdown*/
+.productlist_content a	{ 	padding			: 12px 16px		;
+    display			: block			;
+    font-size		: 13px			;}
+/*change color of dropdown links on hover*/
+.productlist_content a:hover 					 
+{ 	color			: black			; 
+    font-size		: 13.5px		;}
+/*show the dropdown menu on hover*/
+.dropdown_productlist:hover .productlist_content 
+{ 	display			: block			;}
+/*bold the dropdown button when the dropdown content is shown*/
+.dropdown_productlist:hover .pl_buttons 		 
+{ 	color			: black			;}
+.pl_content:hover 	    						 
+{ 	color			: black			;}
+/*new*/					
+.product_maintext_bg  	{ 	width			: 1000px		;  
+    height			: 2000px		; 
+    border-radius	: 20px 			;}
+.product_list_ul 		{  
+    display			: block			;
+    list-style-type	: none			;
+    margin-top		: 1em			;
+    margin-bottom	: 1em			;
+    margin-left		: 0				;
+    margin-right	: 0				;
+    padding-left	: 0px			;}					
+
+.product_grid           {	position		: relative		;
+    margin-left		: 50px			;}
+.item_last              { 	width			: 200px			;
+    float			: left			;
+    margin-left		: 20px			;}
+.product_jpg            { 	position		: relative		;
+    display			: block			;
+    border			: 1px solid		;
+    height			: 140px			;
+    width 			: 140px			;}
+
+.product_info           { 	position		: relative		;
+    margin-bottom	: 30px			;
+    min-height		: 100px			;}
+
+.product_name        	{ 	text-transform	: uppercase		;
+    margin-bottom	: 5px			;
+    font-size		: 14px			;
+    font-family		: lato,helvetica neue,Verdana,Arial,sans-serif;}
+
+.price_box 				{ 	color			: #000			;
+    font-size		: 12px			;
+    margin			: 0				;
+    line-height		: 1				;}
+
+.price_label			{	display			: none			;
+    color			: #a0a0a0		;
+    white-space		: nowrap		;
+    font-family		: georgia,helvetica neue,Verdana,Arial,sans-serif;}
+          
+.price 					{ 	font-family		: lato,Verdana,Arial,sans-serif;
+    letter-spacing	: 2px			;}
+.price_button			{	border			: groove		;}

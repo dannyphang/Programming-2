@@ -1,0 +1,152 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="ti_resources/main_resources/webicon.jpg" sizes="96x96">
+	<link href="main.css"  rel="stylesheet" type="text/css"/>
+    <link href="NavigationBar.css"  rel="stylesheet" type="text/css"/>
+    <link href="HomePage.css"  rel="stylesheet" type="text/css"/>
+    <link href="TIfood.css"  rel="stylesheet" type="text/css"/>
+    <link href="Popup.css"  rel="stylesheet" type="text/css"/>
+    <script src="HomePage.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        TI City Helper
+    </title>
+</head>    
+<body>
+    <div class="background">
+        <img src="ti_resources/main_resources/cyberjaya.jpg"  style="width:100%"/>
+    </div>
+    <a name="Top"></a>
+    <div class="navbar">
+        <div class="navbar_content">
+            <ul>
+                <li class="tiltle_logo">
+                    <a href="HomePage.html" >
+                        <img src="ti_resources/main_resources/title.png" class="logo">
+                    </a>
+                </li>
+                <li class="pay_bar">
+                    <!-- Pay -->
+                    <a href="TIpay.html" class="paylink">
+                        TIpay
+                    </a>
+                </li>
+                <li class="buy_bar">
+                    <!-- Buy -->
+                    <a href="TIbuy.html" class="buylink">
+                        TIbuy
+                    </a>
+                </li>
+                <li class="food_bar">
+                    <!-- Food -->
+                    <a href="TIfood.html" class="foodlink" style="color:red">
+                        TIfood
+                    </a>
+                </li>
+                <li class="transport_bar">
+                    <!-- Transport -->
+                    <a href="TItransport.html" class="cartlink">
+                        TItransport
+                    </a>
+                </li>
+                <li class="login_bar">
+                    <!-- login -->
+                    <button class="login_bar_btn"  onclick="document.getElementById('id01').style.display='block'">
+                        <a href="Login.html"></a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="body_content">
+        <div class="fooddelivery_btn">
+            <table>
+                <tr>
+                    <td>
+						<a href="https://www.foodpanda.my/"><img src="ti_resources\tifood_resources\foodpanda.png"></a>
+					</td>
+                    <td>
+						<a href="https://food.grab.com/id/en/restaurants"><img src="ti_resources\tifood_resources\grabfood.png"></a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						<a href="https://kfc.com.my/delivery/menu/for-one?gclid=CjwKCAjwtpGGBhBJEiwAyRZX2p981WGOQ0umzy9mx9qD2KDdTfOe_422seCqVkgYvJe88LVJX_rzbRoCmbIQAvD_BwE&gclsrc=aw.ds"><img src="ti_resources\tifood_resources\kfc.png"></a>
+					</td>
+                    <td>
+						<a href="https://www.mcdelivery.com.my/my/browse/menu.html?gclid=CjwKCAjwtpGGBhBJEiwAyRZX2rC1ahJ5CnJs_S0u8jLp0fx8FGYbUJw1oOuZPahw9FQ8PmTqAogppBoCUTkQAvD_BwE"><img src="ti_resources\tifood_resources\mcdelivery.png"></a>
+					</td>
+                </tr>
+            </table>
+        </div>
+        <br><br><hr class="footer_hr">
+		<div class="battleofthefooddelivery"><h1>Battle of Food Delivery Services</h1></div>
+        <div class="fooddelivery">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fproductnationco%2Fvideos%2F459982431247882%2F&show_text=0&width=560" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        </div>
+				<div id="id01" class="modal">
+		  <form class="modal-content animate" method="post">
+			<div class="imgcontainer">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<img src="ti_resources/popup_resources/avatar.jpg" alt="Avatar" class="avatar">
+			</div>
+			<div class="container">
+				<label for="uname"><b>Username</b></label>
+				<input type="text" placeholder="Enter Username" name="uname" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+				
+				<button type="submit" onclick="location.href='LoggedHomePage.html'">Login</button>
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				</label>
+			</div>
+			<div class="container" style="background-color:#f1f1f1">
+				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				<span class="register"><a href="Register.html">Sign up?</a></span>
+				<span class="psw"><a href="Forgotpassword.html">Forgot password?</a></span>
+			</div>
+		  </form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+		</script>
+		<footer>
+            <div class="contact_us">
+            </div>
+            <hr class="footer_hr">
+            <div class="term_and_conditions">
+                <ul>
+                    <li class="privacy">
+                        <a href="">Privacy Policy</a> 
+                    </li>
+                    <li class="term">
+                        <a href="">Term of Use</a> 
+                    </li>
+                    <li class="sales">
+                        <a href="">Sales and Refunds</a> 
+                    </li>
+                    <li class="legal">
+                        <a href="">Legal</a> 
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <div class="top">
+        <a href="#Top" class="round-button">&#10514;</a>
+    </div>
+    
+    <script src="HomePage.js"></script>
+</body>
+</html>

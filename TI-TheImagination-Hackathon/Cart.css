@@ -1,0 +1,63 @@
+/*------------------------------------------------------------------
+[1. body ]
+--------------------------------------------------------------------*/
+
+/*========================================================
+				[ Cart Page ]
+=========================================================*/
+.cart_title h4 {
+  color: rgb(58, 75, 96);
+  
+}
+#cart_th th {
+  background: rgb(229, 229, 229) none repeat scroll 0 0;
+  border-radius: inherit;
+}
+.cart-table form {width: 50%;}
+.cart-table tr td .fa.fa-trash {
+  color: rgb(255, 45, 45);
+  font-size: 25px;
+}
+#cart_th th,.cart-table tbody tr td {
+  font-family: roboto;
+  font-size: 14px;
+}
+#qua_in input,#qua_in_2 input {
+  border: 3px solid rgb(227, 227, 227);
+}
+tr#total_colspan td .checkPageBtn {
+  margin-bottom: 0;
+  
+}
+#total_colspan td {font-weight: 50;}
+
+.table-responsive th{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.table-responsive td{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.cart-table th{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.cart-table td{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+
+}
+
+.table-responsive img{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.cart-table img{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}

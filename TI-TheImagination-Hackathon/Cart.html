@@ -1,0 +1,237 @@
+<html>
+
+<head>
+	<link rel="icon" type="image/png" href="ti_resources/main_resources/webicon.jpg" sizes="96x96">
+	<link href="NavigationBar.css" rel="stylesheet" type="text/css" />
+	<link href="HomePage.css" rel="stylesheet" type="text/css" />
+	<link href="TIbuy.css" rel="stylesheet" type="text/css" />
+    <link href="Popup.css"  rel="stylesheet" type="text/css"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="ti_resources/tibuy_resources/css/bootstrap.min.css" />
+
+	<link rel="stylesheet" href="ti_resources/tibuy_resources/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="ti_resources/tibuy_resources/lib/rs-plugin/css/settings.css"
+		media="screen" />
+
+	<link rel="stylesheet" href="Cart.css">
+
+	<link rel="stylesheet" href="ti_resources/tibuy_resources/css/meanmenu.min.css" />
+
+	<link rel="stylesheet" href="ti_resources/tibuy_resources/css/responsive.css" />
+
+	<link rel="shortcut icon" href="ti_resources/tibuy_resources/images/favicon.png" />
+	<script src="TIpay.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="background">
+		<img src="ti_resources/main_resources/cyberjaya.jpg" style="width:100%" />
+	</div>
+	<a name="Top"></a>
+	<div class="navbar">
+		<div class="navbar_content">
+            <ul>
+                 <li class="tiltle_logo">
+                    <a href="HomePage.html" >
+                        <img src="ti_resources/main_resources/title.png" class="logo">
+                    </a>
+                </li>
+                <li class="pay_bar">
+                    <!-- Pay -->
+                    <a href="TIpay.html" class="paylink">
+                        TIpay
+                    </a>
+                </li>
+                <li class="buy_bar">
+                    <!-- Buy -->
+                    <a href="TIbuy.html" class="buylink">
+                        TIbuy
+                    </a>
+                </li>
+                <li class="food_bar">
+                    <!-- Food -->
+                    <a href="TIfood.html" class="foodlink">
+                        TIfood
+                    </a>
+                </li>
+                <li class="transport_bar">
+                    <!-- Transport -->
+                    <a href="TItransport.html" class="cartlink">
+                        TItransport
+                    </a>
+                </li>
+                <li class="login_bar">
+                    <!-- login -->
+                    <button class="login_bar_btn"  onclick="document.getElementById('id01').style.display='block'">
+                        <a href="Login.html"></a>
+                    </button>
+                </li>
+            </ul>
+		</div>
+	</div>
+
+	<div class="body_content">
+
+		<div class="cart-page-content page-section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-10">
+						<div class="cart_title">
+							<h4>Shopping Cart</h4>
+						</div>
+						<div class="table-responsive">
+							<table class="cart-table text-center">
+								<thead>
+									<tr id="cart_th">
+
+										<td><h3 style="float:left;margin-bottom: 0; padding-bottom: 0;"><b>Image</b></h3></th>
+										<td><h3 style="margin-bottom: 0; padding-bottom: 0;"><b>Product name</b></h3></th>
+										<td><h3 style="margin-bottom: 0; padding-bottom: 0;"><b>QUANTITY</b></h3></th>
+										<td><h3 style="margin-bottom: 0; padding-bottom: 0;"><b>Price</b></h3></th>
+										<td><h3 style="margin-bottom: 0; padding-bottom: 0;"><b>Total</b></h3></th>
+									</tr>
+								</thead>
+								<tbody >
+									<tr>
+										<td>
+											<a href="#"><img src="ti_resources/tibuy_resources/15.jpg" title="pink"
+													class="product_jpg"></a>
+										</td>
+										<td>
+											<h6>MPI - 1234</h6>
+										</td>
+										<td>
+											<form id="qua_in" action="action_page.php">
+												<input type="number" value="1" name="quantity" min="1" max="5">
+											</form>
+										</td>
+										<td>
+											<div class="cart-price">$104.99</div>
+										</td>
+										<td>
+											<div class="cart-subtotal">$104.99</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#"><img src="ti_resources/tibuy_resources/15.jpg" title="pink"
+													class="product_jpg"></a>
+										</td>
+										<td>
+											<h6>MPI - 1234</h6>
+										</td>
+										<td>
+											<form id="qua_in_2" action="action_page.php">
+												<input type="number" value="1" name="quantity" min="1" max="10">
+											</form>
+										</td>
+										<td>
+											<div class="cart-price">$85.99</div>
+										</td>
+										<td>
+											<div class="cart-subtotal">$85.99</div>
+										</td>
+									</tr>
+									<tr id="total_colspan">
+										<td colspan="3" class="text-left"><h3 style="float:left;">total</h3></td>
+										<td>
+											2
+										</td>
+										<td>
+											190.98$
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a title="Add to Cart" class="price_button" href="Checkout.html" style="float:right; margin-right: 20%">Checkout</a>
+		<div id="id01" class="modal">
+		  <form class="modal-content animate" method="post">
+			<div class="imgcontainer">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<img src="ti_resources/popup_resources/avatar.jpg" alt="Avatar" class="avatar">
+			</div>
+			<div class="container">
+				<label for="uname"><b>Username</b></label>
+				<input type="text" placeholder="Enter Username" name="uname" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+				
+				<button type="submit" onclick="location.href='LoggedHomePage.html'">Login</button>
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				</label>
+			</div>
+			<div class="container" style="background-color:#f1f1f1">
+				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				<span class="register"><a href="Register.html">Sign up?</a></span>
+				<span class="psw"><a href="Forgotpassword.html">Forgot password?</a></span>
+			</div>
+		  </form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+		</script>
+		<footer>
+			<div class="contact_us">
+
+				<hr class="footer_hr">
+				<div class="term_and_conditions">
+					<ul>
+						<li class="privacy">
+							<a href="">Privacy Policy</a>
+						</li>
+						<li class="term">
+							<a href="">Term of Use</a>
+						</li>
+						<li class="sales">
+							<a href="">Sales and Refunds</a>
+						</li>
+						<li class="legal">
+							<a href="">Legal</a>
+						</li>
+					</ul>
+				</div>
+		</footer>
+	</div>
+	<div class="top">
+		<a href="#Top" class="round-button">&#10514;</a>
+	</div>
+
+	<script src="HomePage.js"></script>
+	<script src="ti_resources/tibuy_resources/js/jquery-1.11.3.min.js"></script>
+
+	<script src="ti_resources/tibuy_resources/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript"
+		src="ti_resources/tibuy_resources/lib/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript"
+		src="ti_resources/tibuy_resources/lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="ti_resources/tibuy_resources/lib/rs-plugin/rs.home.js"></script>
+
+	<script src="ti_resources/tibuy_resources/js/search-box.js"></script>
+
+	<script src="ti_resources/tibuy_resources/js/jquery.scrollUp.js"></script>
+
+	<script src="ti_resources/tibuy_resources/js/jquery.meanmenu.js"></script>
+
+	<script src="ti_resources/tibuy_resources/js/main.js"></script>
+</body>
+
+</html>

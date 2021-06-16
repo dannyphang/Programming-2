@@ -1,0 +1,23 @@
+
+.fooddelivery iframe{
+    width: 80%; 
+    height: 525px;
+    margin-top: 0.25%;
+    margin-left: 10%;
+	border: none;
+	overflow:hidden;
+}
+
+.fooddelivery_btn table{
+	position: relative;
+	top: 15px;
+	text-align: center;
+	clear: both;
+    margin: auto;
+    width: 80%;
+}
+
+.battleofthefooddelivery{
+	width:auto;
+	text-align: center;
+}

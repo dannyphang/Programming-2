@@ -1,0 +1,326 @@
+<html>
+    <head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" href="ti_resources/main_resources/webicon.jpg" sizes="96x96">
+		<link href="NavigationBar.css"  rel="stylesheet" type="text/css"/>
+		<link href="HomePage.css"  rel="stylesheet" type="text/css"/>
+		<link href="Popup.css"  rel="stylesheet" type="text/css"/>
+		<script src="HomePage.js"></script>
+		<link href="TIpay.css"  rel="stylesheet" type="text/css"/>
+        <script src="TIpay.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			TI City Helper
+		</title>
+    </head>
+    <body>
+        <div class="background">
+            <img src="ti_resources/main_resources/cyberjaya.jpg"  style="width:100%"/>
+        </div>
+        <a name="Top"></a>
+        <div class="navbar">
+            <div class="navbar_content">
+            <ul>
+                 <li class="tiltle_logo">
+                    <a href="LoggedHomePage.html" >
+                        <img src="ti_resources/main_resources/title.png" class="logo">
+                    </a>
+                </li>
+                <li class="pay_bar">
+                    <!-- Pay -->
+                    <a href="LoggedTIpay.html" class="paylink" style="red">
+                        TIpay
+                    </a>
+                </li>
+                <li class="buy_bar">
+                    <!-- Buy -->
+                    <a href="LoggedTIbuy.html" class="buylink">
+                        TIbuy
+                    </a>
+                </li>
+                <li class="food_bar">
+                    <!-- Food -->
+                    <a href="LoggedTIfood.html" class="foodlink">
+                        TIfood
+                    </a>
+                </li>
+                <li class="transport_bar">
+                    <!-- Transport -->
+                    <a href="LoggedTItransport.html" class="cartlink">
+                        TItransport
+                    </a>
+                </li>
+                <li class="login_bar">
+                    <!-- login -->
+                    <button class="login_bar_btn" class="logo" style="background-image: url('ti_resources/loginregister_resources/profile.jpg');"  onclick="document.getElementById('id01').style.display='block'">
+                        <a href="Login.html">
+						</a>
+                    </button>
+                </li>
+            </ul>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="top_up">
+                <p class="top_up_p">Top Up</p>
+                <table>
+                    <tr>
+                        <td class="top_up_td">
+                            <button class="reload" id="reloadbtn">
+                                <img src="ti_resources\tipay_resources\mobileReload.png" title="Mobile Reload">
+                                <div id="reload_modal" class="reload_hidden">
+                                    <span class="close"><a href ="">&times;</a></span>
+                                    <table class="mobile_company">
+                                        <tr>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\umobile.png" title="Umobile">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\digi.png" title="Digi">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\xox.png" title="XOX">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\celcom.png" title="Celcom">
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                    <form>
+                                        <label for="phone">Phone Number</label>
+                                        <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+                                    
+                                        <label for="amount">Amount</label>
+                                        <input type="text" id="amount" name="amount" placeholder="minimum RM5.00..">
+                                        
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                      
+                                </div>
+                            </button>
+                        </td>
+                        <td class="top_up_td">
+                            <button class="reload" id="reloadbtn2">
+                                <img src="ti_resources\tipay_resources\data.png" title="Data Package">
+                                <div id="reload_modal2" class="reload_hidden2">
+                                    <span class="close"><a href ="">&times;</a></span>
+                                    <table class="mobile_company">
+                                        <tr>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\umobile.png" title="Umobile">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\digi.png" title="Digi">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\xox.png" title="XOX">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\celcom.png" title="Celcom">
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                    <form>
+                                        <label for="phone">Phone Number</label>
+                                        <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+                                    
+                                        <label for="amount">Amount</label>
+                                        <input type="text" id="amount" name="amount" placeholder="minimum RM5.00..">
+                                        
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                </div>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr class="footer_hr">
+            <div class="bill">
+                <p class="bill_p">Bills</p>
+                <table>
+                    <tr>
+                        <td class="bill_td">
+                            <button class="reload" id="reloadbtn3">
+                                <img src="ti_resources\tipay_resources\postpaid.png" title="Postpaid">
+                                <div id="reload_modal3" class="reload_hidden3">
+                                    <span class="close"><a href ="">&times;</a></span>
+                                    <table class="mobile_company">
+                                        <tr>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\umobile.png" title="Umobile">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\digi.png" title="Digi">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\xox.png" title="XOX">
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <button>
+                                                    <img src="ti_resources\tipay_resources\celcom.png" title="Celcom">
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                    <form>
+                                        <label for="phone">Phone Number</label>
+                                        <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+                                    
+                                        <label for="amount">Amount</label>
+                                        <input type="text" id="amount" name="amount" placeholder="minimum RM5.00..">
+                                        
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                </div>
+                            </button>
+                        </td>
+                        
+                        <td class="bill_td">
+                            <button class="elec" id="elecbtn">
+                                <img src="ti_resources\tipay_resources\electricity.png" title="Electricity">
+                                <div id="elec_modal" class="elec_hidden">
+                                    <span class="close"><a href ="">&times;</a></span>                                    
+                                    <form>
+                                        <label for="acc">Account Number</label>
+                                        <input type="text" id="acc" name="acc" placeholder="Your account number..">
+                                    
+                                        <label for="amount">Amount</label>
+                                        <input type="text" id="amount" name="amount" placeholder="Amount..">
+                                        
+                                        <input type="submit" value="Submit" class="elecsubmit">
+                                    </form>
+                                </div>
+                            </button>
+                        </td>
+                        <td class="bill_td">
+                            <button class="elec" id="elecbtn2">
+                                <img src="ti_resources\tipay_resources\water.png" title="Water & Sewerage">
+                                <div id="elec_modal2" class="elec_hidden2">
+                                    <span class="close"><a href ="">&times;</a></span>                                    
+                                    <form>
+                                        <label for="acc">Account Number</label>
+                                        <input type="text" id="acc" name="acc" placeholder="Your account number..">
+                                    
+                                        <label for="amount">Amount</label>
+                                        <input type="text" id="amount" name="amount" placeholder="Amount..">
+                                        
+                                        <input type="submit" value="Submit" class="elecsubmit">
+                                    </form>
+                                </div>
+                            </button>
+                        </td>
+                        <td class="bill_td">
+                            <button class="elec" id="elecbtn3">
+                                <img src="ti_resources\tipay_resources\ptptn.png" title="PTPTN">
+                                <div id="elec_modal3" class="elec_hidden3">
+                                    <span class="close"><a href ="">&times;</a></span>                                    
+                                    <form>
+                                        <label for="acc">Account Number</label>
+                                        <input type="text" id="acc" name="acc" placeholder="Your account number..">
+                                    
+                                        <label for="amount">Amount</label>
+                                        <input type="text" id="amount" name="amount" placeholder="Amount..">
+                                        
+                                        <input type="submit" value="Submit" class="elecsubmit">
+                                    </form>
+                                </div>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr class="footer_hr">
+            <div class="entertainment">
+                <p class="entertainment_p">Entertaiment</p>
+                <table>
+                    <tr>
+                        <td class="entertainment_td"><a href="https://store.steampowered.com/steamaccount/addfunds"><img src="ti_resources\tipay_resources\game.png" title="Game Credits"></a></td>
+                        <td class="entertainment_td"><a href="https://www.netflix.com/signup"><img src="ti_resources\tipay_resources\online.png" title="Online Streaming"></a></td>
+                    </tr>
+                </table>
+            </div>
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+		<div class="elfsight-app-7e1e456f-9d67-4583-a3ca-588b4493b215"></div>
+        <div id="id01" class="modal">
+		  <form class="loggedmodal-content animate" action="/action_page.php" method="post">
+			<div class="container" style="background-color:#f1f1f1">
+				<button type="button" onclick="location.href='HomePage.html'" class="logoutbtn">Logout</button>
+				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="loggedcancelbtn">Cancel</button>
+			</div>
+		  </form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+		</script>
+            <footer>
+                <div class="contact_us">
+                    
+                </div>
+                <hr class="footer_hr">
+                <div class="term_and_conditions">
+                    <ul>
+                        <li class="privacy">
+                            <a href="">Privacy Policy</a> 
+                        </li>
+                        <li class="term">
+                            <a href="">Term of Use</a> 
+                        </li>
+                        <li class="sales">
+                            <a href="">Sales and Refunds</a> 
+                        </li>
+                        <li class="legal">
+                            <a href="">Legal</a> 
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        
+        <div class="hidden">
+            <div class="reload_hidden">
+                
+            </div>
+        </div>
+        
+        <div class="top">
+            <a href="#Top" class="round-button">&#10514;</a>
+        </div>
+        
+        <script src="TIpay.js"></script>
+    </body>
+</html>
