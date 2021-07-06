@@ -13,7 +13,6 @@ public class MainMenu extends javax.swing.JFrame {
         initComponents();
     }
     
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -92,19 +91,19 @@ public class MainMenu extends javax.swing.JFrame {
         int listItem = gameList.getSelectedIndex();
         switch(listItem){
             case 0:
-                this.hide();
+                this.setVisible(true);
                 new GuessTheNumber2().setVisible(true);
                 break;
             case 1:
-                this.hide();
+                this.setVisible(true);
                 new TicTacToe().setVisible(true);
                 break;
             case 2:
-                this.hide();
+                this.setVisible(true);
 //                SnakeGame();
                 break;
             case 3:
-                this.hide();
+                this.setVisible(true);
 //                2048();
                 break;
             default:
