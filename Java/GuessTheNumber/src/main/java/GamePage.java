@@ -12,7 +12,7 @@ public class GamePage extends javax.swing.JFrame {
         maximum = max;
         max2 = maximum;
         min2 = minimum;
-        
+        // 
         while(randomNumber == min || randomNumber == max){
             randomNumber = min + (int) (Math.random() * (max - min + 1));
         }
