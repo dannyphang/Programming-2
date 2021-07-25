@@ -15,7 +15,6 @@ public class GuessTheNumber2 extends javax.swing.JFrame {
         initComponents();
     }
     
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
@@ -109,7 +108,7 @@ public class GuessTheNumber2 extends javax.swing.JFrame {
         if (max - min == 1 || max <= min) {
             JOptionPane.showMessageDialog(null, "Wrong number is entered!");
         } else {
-            this.hide();
+            this.setVisible(true);
             new GamePage(min, max).setVisible(true);
         }
 

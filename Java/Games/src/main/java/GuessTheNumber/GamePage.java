@@ -20,7 +20,7 @@ public class GamePage extends javax.swing.JFrame {
 //            randomNumber = min + (int) (Math.random() * (max - min + 1));
 //        }
 
-        for(int i = 0; i <= 100; ++i){
+        for(int i = 0; i <= 1; ++i){
             System.out.println("-------------------\n" + i + ": ");
             randomNumber = min;
             while(randomNumber == min || randomNumber == max){
@@ -33,7 +33,6 @@ public class GamePage extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -167,6 +166,7 @@ public class GamePage extends javax.swing.JFrame {
                 minimum = min2;
                 repaint();
             }else{
+                System.out.println("BOOM!!!");
                 int confirm = JOptionPane.showConfirmDialog(new GuessTheNumber2(), 
                         "\nBOOM!!!\nDo you want to play one more time?", "One more time??", 
                         JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);

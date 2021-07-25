@@ -10,7 +10,7 @@ while restart:
         end = 0
         for n in range(10):
             print("\n---------- Live left: %d ----------" %(10 - n))
-            print("end: ", end)
+            # print("end: ", end)
             if (end == 4):
                 print("Congratulation")
                 break

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListView Demo</string>
+    <string name="random">Random</string>
+    <string name="record">%d Record(s)</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+</resources>

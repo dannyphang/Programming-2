@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fruits">
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Blueberries</item>
+        <item>Cherries</item>
+        <item>Coconut</item>
+        <item>Grapes</item>
+        <item>Green Apple</item>
+        <item>Kiwi</item>
+        <item>Lemon</item>
+        <item>Mango</item>
+        <item>Melon</item>
+        <item>Olive</item>
+        <item>Orange</item>
+        <item>Peach</item>
+        <item>Pear</item>
+        <item>Pineapple</item>
+        <item>Pomegranate</item>
+        <item>Red Apple</item>
+        <item>Strawberry</item>
+        <item>Tangerine</item>
+        <item>Tomato</item>
+        <item>Watermelon</item>
+    </string-array>
+</resources>

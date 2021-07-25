@@ -45,7 +45,6 @@ public class TicTacToe extends javax.swing.JFrame {
         
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -226,7 +225,7 @@ public class TicTacToe extends javax.swing.JFrame {
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
         // TODO add your handling code here:
-        this.hide();
+        this.setVisible(true);
         new MainMenu().setVisible(true);
     }//GEN-LAST:event_backBtnActionPerformed
 
