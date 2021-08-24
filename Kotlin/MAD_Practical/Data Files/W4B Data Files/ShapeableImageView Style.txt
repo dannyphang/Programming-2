@@ -1,0 +1,14 @@
+cornerFamily = rounded | cut
+
+- cornerFamilyTopLeft
+- cornerFamilyTopRight
+- cornerFamilyBottomLeft
+- cornerFamilyBottomRight
+
+
+cornerSize = % | dp
+
+- cornerSizeTopLeft
+- cornerSizeTopRight
+- cornerSizeBottomLeft
+- cornerSizeBottomRight

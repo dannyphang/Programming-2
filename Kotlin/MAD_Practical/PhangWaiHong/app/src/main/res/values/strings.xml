@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Phang Wai Hong</string>
+    <string name="locate_us">LOCATE US</string>
+    <string name="salarylbl">Salary</string>
+    <string name="overtimelbl">Overtime</string>
+    <string name="overtime">Overtime</string>
+    <string name="agelbl">Age</string>
+    <string name="salary">Salary</string>
+    <string name="age">Age</string>
+    <string name="allowancelbl">Allowance</string>
+    <string name="allowance">Allowance</string>
+    <string name="submitBtn">SUBMIT</string>
+    <string name="resetBtn">RESET</string>
+    <string name="reset">RESET</string>
+    <string name="submit">SUBMIT</string>
+    <string name="employee_contribution2">Employee Contribution</string>
+    <string name="employee_rate2">Employee Rate</string>
+    <string name="employer_contribution2">Employer Contribution</string>
+    <string name="income2">Income</string>
+    <string name="close">CLOSE</string>
+    <string name="income">Income</string>
+    <string name="employee_rate">Employee Rate</string>
+    <string name="employee_contribution">Employee Contribution</string>
+    <string name="employer_contribution">Employer Contribution</string>
+</resources>

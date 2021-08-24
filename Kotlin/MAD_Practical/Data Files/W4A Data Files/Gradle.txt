@@ -1,0 +1,14 @@
+plugins {
+    id 'kotlin-kapt'
+}
+
+android {
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.activity:activity-ktx:1.2.3'
+}

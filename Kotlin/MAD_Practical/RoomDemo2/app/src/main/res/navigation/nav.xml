@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.roomdemo2.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/programFragment"
+        android:name="com.example.roomdemo2.ui.ProgramFragment"
+        android:label="Program"
+        tools:layout="@layout/fragment_program" />
+    <fragment
+        android:id="@+id/programDetailFragment"
+        android:name="com.example.roomdemo2.ui.ProgramDetailFragment"
+        android:label="Program: Detail"
+        tools:layout="@layout/fragment_program_detail" />
+    <fragment
+        android:id="@+id/studentFragment"
+        android:name="com.example.roomdemo2.ui.StudentFragment"
+        android:label="Student"
+        tools:layout="@layout/fragment_student" />
+    <fragment
+        android:id="@+id/studentInsertFragment"
+        android:name="com.example.roomdemo2.ui.StudentInsertFragment"
+        android:label="Student: Insert"
+        tools:layout="@layout/fragment_student_insert"/>
+    <fragment
+        android:id="@+id/studentUpdateFragment"
+        android:name="com.example.roomdemo2.ui.StudentUpdateFragment"
+        android:label="Student: Update"
+        tools:layout="@layout/fragment_student_update" />
+
+</navigation>

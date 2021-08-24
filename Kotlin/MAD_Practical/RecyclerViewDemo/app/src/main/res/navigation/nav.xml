@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.recyclerviewdemo.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/demo1Fragment"
+        android:name="com.example.recyclerviewdemo.ui.Demo1Fragment"
+        android:label="Demo 1 : Linear Vertical"
+        tools:layout="@layout/fragment_demo1" />
+    <fragment
+        android:id="@+id/demo2Fragment"
+        android:name="com.example.recyclerviewdemo.ui.Demo2Fragment"
+        android:label="Demo 2 : Linear Horizontal"
+        tools:layout="@layout/fragment_demo2" />
+    <fragment
+        android:id="@+id/demo3Fragment"
+        android:name="com.example.recyclerviewdemo.ui.Demo3Fragment"
+        android:label="Demo 3 : Grid"
+        tools:layout="@layout/fragment_demo3" />
+    <fragment
+        android:id="@+id/demo4Fragment"
+        android:name="com.example.recyclerviewdemo.ui.Demo4Fragment"
+        android:label="Demo 4 : Details"
+        tools:layout="@layout/fragment_demo4" />
+</navigation>

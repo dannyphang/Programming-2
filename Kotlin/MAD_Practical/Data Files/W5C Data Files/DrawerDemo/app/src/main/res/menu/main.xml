@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/main">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/page1Fragment"
+            android:title="Page 1" />
+        <item
+            android:id="@+id/page2Fragment"
+            android:title="Page 2" />
+        <item
+            android:id="@+id/page3Fragment"
+            android:title="Page 3" />
+        <item
+            android:id="@+id/custom"
+            android:title="Custom" />
+
+    </group>
+
+</menu>

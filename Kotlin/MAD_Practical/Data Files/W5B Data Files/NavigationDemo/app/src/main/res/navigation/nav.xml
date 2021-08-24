@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.navigationdemo.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.navigationdemo.ui.StartFragment"
+        android:label="Start"
+        tools:layout="@layout/fragment_start" />
+    <fragment
+        android:id="@+id/page1Fragment"
+        android:name="com.example.navigationdemo.ui.Page1Fragment"
+        android:label="Page 1"
+        tools:layout="@layout/fragment_page1" />
+    <fragment
+        android:id="@+id/page2Fragment"
+        android:name="com.example.navigationdemo.ui.Page2Fragment"
+        android:label="Page 2"
+        tools:layout="@layout/fragment_page2" />
+    <fragment
+        android:id="@+id/page3Fragment"
+        android:name="com.example.navigationdemo.ui.Page3Fragment"
+        android:label="Page 3"
+        tools:layout="@layout/fragment_page3" />
+    <fragment
+        android:id="@+id/endFragment"
+        android:name="com.example.navigationdemo.ui.EndFragment"
+        android:label="End"
+        tools:layout="@layout/fragment_end" >
+        <action
+            android:id="@+id/action_endFragment_to_startFragment5"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.navigationdemo.ui.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/help1Fragment"
+        android:name="com.example.navigationdemo.ui.Help1Fragment"
+        android:label="Help 1"
+        tools:layout="@layout/fragment_help1" />
+    <fragment
+        android:id="@+id/help2Fragment"
+        android:name="com.example.navigationdemo.ui.Help2Fragment"
+        android:label="Help 2"
+        tools:layout="@layout/fragment_help2" />
+    <fragment
+        android:id="@+id/dialog1Fragment"
+        android:name="com.example.navigationdemo.ui.Dialog1Fragment"
+        android:label="Dialog 1"
+        tools:layout="@layout/fragment_dialog1" />
+    <fragment
+        android:id="@+id/dialog2Fragment"
+        android:name="com.example.navigationdemo.ui.Dialog2Fragment"
+        android:label="Dialog 2"
+        tools:layout="@layout/fragment_dialog2" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.navigationdemo.ui.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/about1Fragment"
+        android:name="com.example.navigationdemo.ui.About1Fragment"
+        android:label="About 1"
+        tools:layout="@layout/fragment_about1" />
+    <fragment
+        android:id="@+id/about2Fragment"
+        android:name="com.example.navigationdemo.ui.About2Fragment"
+        android:label="About 2"
+        tools:layout="@layout/fragment_about2" />
+
+</navigation>

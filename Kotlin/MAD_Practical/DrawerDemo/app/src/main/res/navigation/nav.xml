@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+
+        android:id="@+id/homeFragment"
+        android:name="com.example.drawerdemo.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/page1Fragment"
+        android:name="com.example.drawerdemo.ui.Page1Fragment"
+        android:label="Page 1"
+        tools:layout="@layout/fragment_page1" />
+    <fragment
+        android:id="@+id/page2Fragment"
+        android:name="com.example.drawerdemo.ui.Page2Fragment"
+        android:label="Page 2"
+        tools:layout="@layout/fragment_page2" />
+    <fragment
+        android:id="@+id/page3Fragment"
+        android:name="com.example.drawerdemo.ui.Page3Fragment"
+        android:label="Page 3"
+        tools:layout="@layout/fragment_page3" />
+    <fragment
+        android:id="@+id/pageAFragment"
+        android:name="com.example.drawerdemo.ui.PageAFragment"
+        android:label="Page A"
+        tools:layout="@layout/fragment_page_a" />
+    <fragment
+        android:id="@+id/pageBFragment"
+        android:name="com.example.drawerdemo.ui.PageBFragment"
+        android:label="Page B"
+        tools:layout="@layout/fragment_page_b" />
+</navigation>
