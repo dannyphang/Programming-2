@@ -13,6 +13,7 @@ import com.example.roomdemo2.R
 import com.example.roomdemo2.data.StudentViewModel
 import com.example.roomdemo2.databinding.FragmentStudentBinding
 import com.example.roomdemo2.util.StudentAdapter
+import com.example.roomdemo2.util.StudentCustomAdapter
 
 class StudentFragment : Fragment() {
 
@@ -26,7 +27,7 @@ class StudentFragment : Fragment() {
         binding.btnInsert.setOnClickListener { nav.navigate(R.id.studentInsertFragment) }
 
         // TODO(15): Use -> StudentCustomAdapter
-        val adapter = StudentAdapter() { holder, s ->
+        val adapter = StudentCustomAdapter() { holder, s ->
             holder.root.setOnClickListener { nav.navigate(R.id.studentUpdateFragment, bundleOf("id" to s.id)) }
         }
         binding.rv.adapter = adapter
@@ -34,7 +35,7 @@ class StudentFragment : Fragment() {
 
         // TODO(16): Use -> getAllCustom
         // TODO(19): Use -> search result
-        vm.getAll().observe(viewLifecycleOwner) {
+        vm.getAllCustom().observe(viewLifecycleOwner) {
             adapter.submitList(it)
             binding.txtCount.text = "${it.size} record(s)"
         }

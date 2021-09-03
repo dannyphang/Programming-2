@@ -38,8 +38,8 @@ class ProgramCustomAdapter (
         val item = getItem(position)
         // TODO(4): Complete name and count
         holder.txtId.text    = item.id
-        holder.txtName.text  = "X"
-        holder.txtCount.text = "X"
+        holder.txtName.text  = item.name
+        holder.txtCount.text = item.students.size.toString()
         fn(holder, item)
     }
 

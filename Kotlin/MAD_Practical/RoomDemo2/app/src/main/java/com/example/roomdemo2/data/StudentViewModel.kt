@@ -10,7 +10,7 @@ class StudentViewModel : ViewModel() {
 
 
     // TODO(13): getAllCustom
-
+    fun getAllCustom() = db.studentDao.getAllCustom()
 
     fun getAll() = db.studentDao.getAll()
 

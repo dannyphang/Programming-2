@@ -24,14 +24,25 @@ class ProgramDetailFragment : Fragment() {
         binding = FragmentProgramDetailBinding.inflate(inflater, container, false)
 
         // TODO(7): Display program id and name
+        vm.get(id).observe(viewLifecycleOwner){
+            if(it == null){ // it = program
+                nav.navigateUp()
+                return@observe
+            }
 
+            binding.txtId.text = it.id
+            binding.txtName.text = it.name
+        }
 
         val adapter = StudentAdapter()
         binding.rv.adapter = adapter
         binding.rv.addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
 
         // TODO(10): Display students -> RecyclerView
-
+        vm.getStudentByProgramId(id).observe(viewLifecycleOwner){
+            adapter.submitList(it)
+            binding.txtCount.text = "${it.size} record(s)"
+        }
 
         return binding.root
     }

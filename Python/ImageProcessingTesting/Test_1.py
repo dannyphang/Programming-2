@@ -45,5 +45,5 @@ while True:
     # stop loop by ESC
     if key == 27: # The Esc key
         break
-webcam.release()
+# webcam.release()
 cv2.destroyAllWindows()

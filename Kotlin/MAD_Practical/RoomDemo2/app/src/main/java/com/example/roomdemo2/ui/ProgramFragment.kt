@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import com.example.roomdemo2.R
 import com.example.roomdemo2.data.ProgramViewModel
 import com.example.roomdemo2.databinding.FragmentProgramBinding
-import com.example.roomdemo2.util.ProgramAdapter
+import com.example.roomdemo2.util.ProgramCustomAdapter
 
 class ProgramFragment : Fragment() {
 
@@ -24,14 +24,14 @@ class ProgramFragment : Fragment() {
         binding = FragmentProgramBinding.inflate(inflater, container, false)
 
         // TODO(5): Use -> ProgramCustomAdapter
-        val adapter = ProgramAdapter() { holder, p ->
+        val adapter = ProgramCustomAdapter() { holder, p ->
             holder.root.setOnClickListener { nav.navigate(R.id.programDetailFragment, bundleOf("id" to p.id)) }
         }
         binding.rv.adapter = adapter
         binding.rv.addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
 
         // TODO(6): Use -> getAllCustom
-        vm.getAll().observe(viewLifecycleOwner) {
+        vm.getAllCustom().observe(viewLifecycleOwner) {
             adapter.submitList(it)
             binding.txtCount.text = "${it.size} record(s)"
         }

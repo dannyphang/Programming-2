@@ -39,9 +39,9 @@ class StudentCustomAdapter (
         val item = getItem(position)
         // TODO(14): Complete name, gender, program id and program name
         holder.txtId.text      = item.id
-        holder.txtName.text    = "X"
-        holder.txtGender.text  = "X"
-        holder.txtProgram.text = "X"
+        holder.txtName.text    = item.name
+        holder.txtGender.text  = if (item.gender == "F") "Female" else "Male"
+        holder.txtProgram.text = "${item.program.id} - ${item.program.name}"
         fn(holder, item)
     }
 

@@ -27,11 +27,19 @@ data class Student(
 // TODO(1): ProgramCustom - program with students
 data class ProgramCustom(
     var id  : String,
+    var name: String,
+    @Relation(parentColumn = "id", entityColumn = "programId")
+    var students: List<Student>
 )
 
 // TODO(11): StudentCustom - student with program
 data class StudentCustom(
     var id       : String,
+    var name     : String,
+    var gender   : String,
+    var programId: String,
+    @Relation(parentColumn = "programId", entityColumn = "id")
+    var program: Program,
 )
 
 // Dao ---------------------------------------------------------------------------------------------
@@ -39,7 +47,9 @@ data class StudentCustom(
 @Dao
 interface ProgramDao {
     // TODO(2): getAllCustom
-
+    @Transaction
+    @Query("SELECT * FROM program ORDER BY id")
+    fun getAllCustom(): LiveData<List<ProgramCustom>>
 
     // ---------------------------------------------------------------------------------------------
 
@@ -66,10 +76,13 @@ interface StudentDao {
 
     // TODO(12): getAllCustom
     // TODO(17): Add search query
-
+    @Transaction
+    @Query("SELECT * FROM student ORDER BY id")
+    fun getAllCustom(query: String = ""): LiveData<List<StudentCustom>>
 
     // TODO(8): getStudentsByProgramId
-
+    @Query("SELECT * FROM student WHERE programId = :programId ORDER BY id")
+    fun getStudentByProgramId(programId: String): LiveData<List<Student>>
 
     // ---------------------------------------------------------------------------------------------
 
