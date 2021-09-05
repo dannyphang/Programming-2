@@ -7,10 +7,14 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.roomdemo2.data.Program
+import com.example.roomdemo2.data.Student
 import com.example.roomdemo2.data.StudentViewModel
 import com.example.roomdemo2.databinding.FragmentStudentInsertBinding
+import com.example.roomdemo2.util.errorDialog
+import kotlinx.coroutines.launch
 
 class StudentInsertFragment : Fragment() {
 
@@ -26,7 +30,9 @@ class StudentInsertFragment : Fragment() {
         binding.spnProgram.adapter = adapter
 
         // TODO(21): Load spinner with programs
-
+        vm.getAllPrograms().observe(viewLifecycleOwner) {
+            adapter.addAll(it)
+        }
 
         reset()
         binding.btnReset.setOnClickListener  { reset() }
@@ -45,6 +51,23 @@ class StudentInsertFragment : Fragment() {
 
     private fun submit() {
         // TODO(22): Insert student + validation
+        val s = Student(
+            id = binding.edtId.text.toString().trim().uppercase(),
+            name = binding.edtName.text.toString().trim(),
+            gender = if (binding.radFemale.isChecked) "F" else "M",
+            programId = (binding.spnProgram.selectedItem as Program).id
+        )
+
+        lifecycleScope.launch {
+            val err = vm.validate(s)
+            if (err != ""){
+                errorDialog(err)
+                return@launch
+            }
+
+            vm.insert(s)
+            nav.navigateUp()
+        }
 
 
     }

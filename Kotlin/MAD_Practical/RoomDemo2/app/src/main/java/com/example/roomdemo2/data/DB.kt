@@ -46,6 +46,10 @@ data class StudentCustom(
 
 @Dao
 interface ProgramDao {
+    // TODO(31): getPrograms
+    @Query("SELECT * FROM program ORDER BY id")
+    suspend fun getPrograms(): List<Program>
+
     // TODO(2): getAllCustom
     @Transaction
     @Query("SELECT * FROM program ORDER BY id")
@@ -72,12 +76,14 @@ interface ProgramDao {
 @Dao
 interface StudentDao {
     // TODO(24): getCount
-
+    @Query("SELECT COUNT(*) FROM student WHERE id = :id")
+    // if it is not live data (like like 7, the getAllCustom), then need to add "suspend" before fun
+    suspend fun getCount(id: String): Int
 
     // TODO(12): getAllCustom
     // TODO(17): Add search query
     @Transaction
-    @Query("SELECT * FROM student ORDER BY id")
+    @Query("SELECT * FROM student WHERE name LIKE '%' || :query || '%' ORDER BY id")
     fun getAllCustom(query: String = ""): LiveData<List<StudentCustom>>
 
     // TODO(8): getStudentsByProgramId

@@ -1,0 +1,19 @@
+Project-Level
+-------------
+
+dependencies {
+    classpath 'com.google.gms:google-services:4.3.10'
+}
+
+
+Module-Level
+------------
+
+plugins {
+    id 'com.google.gms.google-services'
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-firestore-ktx:23.0.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.5.1'
+}

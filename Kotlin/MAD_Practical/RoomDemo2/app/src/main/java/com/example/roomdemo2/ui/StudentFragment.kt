@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.SearchView
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
@@ -35,13 +36,22 @@ class StudentFragment : Fragment() {
 
         // TODO(16): Use -> getAllCustom
         // TODO(19): Use -> search result
-        vm.getAllCustom().observe(viewLifecycleOwner) {
+        vm.result.observe(viewLifecycleOwner) {
             adapter.submitList(it)
             binding.txtCount.text = "${it.size} record(s)"
         }
 
         // TODO(20): SearchView -> OnQueryTextListener
+        binding.sv.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
+            // press enter and submit
+            override fun onQueryTextSubmit(query: String?) = true
 
+            // will change on time
+            override fun onQueryTextChange(query: String?): Boolean {
+                vm.query.value = query
+                return true
+            }
+        })
 
         return binding.root
     }

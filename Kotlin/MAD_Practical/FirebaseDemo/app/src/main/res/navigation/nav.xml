@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.firebasedemo.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.firebasedemo.ui.ListFragment"
+        android:label="Friend | List"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/insertFragment"
+        android:name="com.example.firebasedemo.ui.InsertFragment"
+        android:label="Friend | Insert"
+        tools:layout="@layout/fragment_insert" />
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.firebasedemo.ui.UpdateFragment"
+        android:label="Friend | Update"
+        tools:layout="@layout/fragment_update" />
+</navigation>
