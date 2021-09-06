@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Danny/Documents/Programming(Original)/Kotlin/MAD_Practical/RoomDemo2/app/src/main/res/drawable/search_background.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Danny/Documents/Programming(Original)/Kotlin/MAD_Practical/RoomDemo2/app/src/main/res/layout/activity_main.xml" value="0.29375" />
         <entry key="..\:/Users/Danny/Documents/Programming(Original)/Kotlin/MAD_Practical/RoomDemo2/app/src/main/res/layout/fragment_student.xml" value="0.3578125" />
+        <entry key="..\:/Users/Danny/Documents/Programming(Original)/Kotlin/MAD_Practical/RoomDemo2/app/src/main/res/layout/fragment_student_update.xml" value="0.29375" />
         <entry key="..\:/Users/Danny/Documents/Programming(Original)/Kotlin/MAD_Practical/RoomDemo2/app/src/main/res/layout/item_student_custom.xml" value="0.3578125" />
       </map>
     </option>

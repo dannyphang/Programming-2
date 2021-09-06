@@ -1,0 +1,16 @@
+Dependencies
+------------
+
+    implementation 'androidx.security:security-crypto:1.0.0'
+
+
+Code
+----
+
+	return EncryptedSharedPreferences.create(
+            "AUTH",
+            MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC),
+            ctx,
+            EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+            EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
+        )

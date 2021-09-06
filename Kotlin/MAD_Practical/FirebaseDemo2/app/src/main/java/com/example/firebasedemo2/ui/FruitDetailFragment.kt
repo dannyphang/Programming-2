@@ -29,14 +29,14 @@ class FruitDetailFragment : BottomSheetDialogFragment() {
         // -----------------------------------------------------------------------------------------
 
         // TODO(31): Load a specific fruit
-        val fruit = Fruit("TODO", "TODO", 0.00)
+        val fruit = vm.get(id)!!
 
         binding.txtId.text    = fruit.id
         binding.txtName.text  = fruit.name
         binding.txtPrice.text = formatter.format(fruit.price)
 
         // TODO(32): Display [category.name]
-        binding.txtCategory.text = "TODO"
+        binding.txtCategory.text = fruit.category.name
 
         // -----------------------------------------------------------------------------------------
 

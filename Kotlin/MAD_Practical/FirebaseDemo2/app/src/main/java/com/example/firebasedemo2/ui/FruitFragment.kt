@@ -32,7 +32,9 @@ class FruitFragment : Fragment() {
         // -----------------------------------------------------------------------------------------
 
         // TODO(29): Default search, filter and sort
-
+        vm.search("")
+        vm.filter("")
+        sort("id")
 
         // -----------------------------------------------------------------------------------------
 
@@ -69,7 +71,7 @@ class FruitFragment : Fragment() {
             override fun onQueryTextSubmit(name: String) = true
             override fun onQueryTextChange(name: String): Boolean {
                 // TODO(19): Search by [name] -> vm.search(...)
-
+                vm.search(name)
                 return true
             }
         })
@@ -80,7 +82,8 @@ class FruitFragment : Fragment() {
             override fun onNothingSelected(parent: AdapterView<*>?) = Unit
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 // TODO(20): Filter by [categoryId] -> vm.filter(...)
-
+                val cat = arrayAdapter.getItem(position)!!
+                vm.filter(cat.id)
             }
         }
 
@@ -97,14 +100,26 @@ class FruitFragment : Fragment() {
 
     private fun sort(field: String) {
         // TODO(26): Sort by [field] -> vm.sort(...)
-
+        val reverse = vm.sort(field)
 
         // TODO(27): Remove icon -> all buttons
-
+        binding.btnId.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
+        binding.btnName.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
+        binding.btnPrice.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
 
         // TODO(28): Set icon -> specific button
+        val res = if (reverse) {
+            R.drawable.ic_down
+        }
+        else{
+            R.drawable.ic_up
+        }
 
-
+        when (field) {
+            "id" -> binding.btnId.setCompoundDrawablesWithIntrinsicBounds(0, 0, res, 0)
+            "name" -> binding.btnName.setCompoundDrawablesWithIntrinsicBounds(0, 0, res, 0)
+            "price" -> binding.btnPrice.setCompoundDrawablesWithIntrinsicBounds(0, 0, res, 0)
+        }
     }
 
 }

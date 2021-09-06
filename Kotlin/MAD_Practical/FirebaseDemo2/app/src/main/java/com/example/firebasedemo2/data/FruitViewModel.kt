@@ -37,7 +37,6 @@ class FruitViewModel : ViewModel() {
                 updateResult()
             }
         }
-
     }
 
     // TODO(15): Get search + filter + sort result
@@ -45,10 +44,19 @@ class FruitViewModel : ViewModel() {
         var list = fruits
 
         // TODO(23): Search + filter
-
+        list = list.filter { f ->
+            f.name.contains(name, true) && (categoryId == "" || categoryId == f.categoryId)
+        }
 
         // TODO(24): Sort
+        list = when (field) {
+            "id" -> list.sortedBy { f -> f.id }
+            "name" -> list.sortedBy { f -> f.name }
+            "price" -> list.sortedBy { f -> f.price }
+            else -> list
+        }
 
+        if(reverse) list = list.reversed()
 
         result.value = list
     }
@@ -64,16 +72,30 @@ class FruitViewModel : ViewModel() {
 
     // TODO(21): Set [name] -> update result
     fun search(name: String) {
-
+        // this. is point to the global variables
+        this.name = name
+        updateResult()
     }
 
     // TODO(22): Set [categoryId] -> update result
     fun filter(categoryId: String) {
-
+        this.categoryId = categoryId
+        updateResult()
     }
 
     // TODO(25): Set [field] and [reverse] -> update result
     fun sort(field: String): Boolean {
+//        if (this.field == field) {
+//            reverse != reverse
+//        } else {
+//            reverse = false
+//        }
+
+        reverse = if (this.field == field) !reverse else false
+
+        this.field = field
+        updateResult()
+
         return reverse
     }
 
@@ -81,7 +103,7 @@ class FruitViewModel : ViewModel() {
 
     // TODO(30): Return a specific fruit (from local data)
     fun get(id: String): Fruit? {
-        return null
+        return fruits.find { f -> f.id == id }
     }
 
 }
