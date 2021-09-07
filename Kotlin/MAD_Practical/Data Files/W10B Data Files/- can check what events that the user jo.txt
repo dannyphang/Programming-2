@@ -1,0 +1,6 @@
+- can check what events that the user joined? like a event list 
+- date make it into dropbox
+- delete box is??
+- mayb can remove the delete (in the edit events) cuz duplicate
+- validation in the update page?
+- delete confirm page can make it into 2 button

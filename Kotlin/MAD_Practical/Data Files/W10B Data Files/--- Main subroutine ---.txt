@@ -1,0 +1,90 @@
+--- Main subroutine ---
+
+Purpose :-
+- The main program and subroutine architecture. support system modifiability, scalability 
+  and performance.
+- The main component or the program will contains the main data for the program. 
+- The architecture will separate concern into smaller amounts of complexity and will managing the 
+  complexity more effectively.
+
+Advantages :-
+- It is more easily to modify and simple to analyze control flow 
+Disadvantages :-
+- The parallel processing may be difficult and also difficult to distribute across machines
+
+--- Layered ---
+- This pattern can be used to structure programs that can be decomposed into groups of subtasks
+- each of which is at a particular level of abstraction. 
+- Each layer provides services to the next higher layer.
+- There are 4 commonly layers which is
+    Presentation layer (also known as UI layer)
+    Application layer (also known as service layer)
+    Business logic layer (also known as domain layer)
+    Data access layer (also known as persistence layer)
+
+Advantages :-
+- It is more easily to modify by substituting oe layer for a new one
+Disadvantages :-
+- The structuring systems may be difficult
+
+--- Blackboard ---
+This pattern is useful for problems for which no deterministic solution strategies are known. 
+- The blackboard pattern consists of 3 main components.
+    blackboard — a structured global memory containing objects from the solution space
+    knowledge source — specialized modules with their own representation
+    control component — selects, configures and executes modules.
+All the components have access to the blackboard. 
+- Components may produce new data objects that are added to the blackboard. 
+- Components look for particular kinds of data on the blackboard, 
+- and may find these by pattern matching with the existing knowledge source.
+
+Advantages :-
+- It is easy to add new application because the clients are relatively indepentent of each other
+- The data store is indepentent of the client.
+Disadvantages :-
+- Meanwhile, modifying the structure of the data space is hard because all application are affected.
+- May need synchronization and access control so that the communication between client may be slow.
+
+--- Pipe and Fliter ---
+
+- This pattern can be used to structure systems which produce and process a stream of data. 
+- Each processing step is enclosed within a filter component. 
+- Data to be processed is passed through pipes. 
+- These pipes can be used for buffering or for synchronization purposes.
+
+Advantages :-
+- It is easy to understand and allow the designer to understand the system in term of composition of filters because no component interaction to manage.
+- It is also support reuse and easy to maintain and enhance
+Disadvantages :-
+- This pattern is not good at interactive application and incremental display updates
+- It may need to maintain connection between separate yet related streams.
+
+--- Client-server ---
+
+- This pattern consists of two parties; a server and multiple clients. 
+- The server component will provide services to multiple client components. 
+- Clients request services from the server and the server provides relevant services to those clients. 
+- Furthermore, the server continues to listen to client requests.
+- For example the Online application such as email, document sharing and banking
+
+Advantages :-
+- The distribution is quite straightfoward and it's easily implemented in parallel
+Disadvantages:- 
+- We need to know the names of communication processes / machines
+- The communication across a network may be slow
+
+Availability
+- Availability is the operation of the system under test rather than the behaviour of the system under test
+- The required uptime percentage of this application is 95% for core cities and also allow upgrade of features during the running time of applications. All information required is ready when maintenance is needed.
+
+Usability
+- Usability is to show how easy the application is to use. For example, new users have within 1 hour of learning to use the apps and there is on demand training for them. These two functions made the application more easier to use for new users.
+
+Security
+- Security is very important for any systems or applications. High security can prevent important data from leaking. For example, it is able to protect the system and its information from cyber-attack and also protect users’ information from unauthorised access. 
+
+Reliability
+- This Covid-19 application is able to conform to the standard communication protocols and the source code can be amended with minimum impact to the system. These can improve the reliability of this application due to the independence of subsystems will not cause very big errors to the system even if one of the subsystems is not functionable.
+
+Flexibility
+- Flexibility is that the system can be used on different platforms and operating systems. This application will allow data with different formats can be passed between the application and other systems. Besides, this mobile application is able to operate under different types of mobile devices and tabs. Moreover, it is also able to be modified to suit connect to other related applications and allow data with different formats can be passed between the apps and the other systems.
