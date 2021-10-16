@@ -1,0 +1,27 @@
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Discord Bot T1.exe
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Discord Bot T1.deps.json
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Discord Bot T1.runtimeconfig.json
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Discord Bot T1.runtimeconfig.dev.json
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Discord Bot T1.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Discord Bot T1.pdb
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.csproj.AssemblyReference.cache
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.AssemblyInfoInputs.cache
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.AssemblyInfo.cs
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.csproj.CoreCompileInputs.cache
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.pdb
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.genruntimeconfig.cache
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\ConcurrentCollections.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\DSharpPlus.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Emzi0767.Common.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Danny\Documents\Programming(Original)\Discord Bot Tutorial\Discord Bot T1\obj\Debug\netcoreapp3.1\Discord Bot T1.csproj.CopyComplete
